@@ -179,7 +179,7 @@ hr {
 }
 
 .contSecThree .wor .col {
-  width: 33.333%;
+  width: 33%;
 }
 
 .col1 {
@@ -351,10 +351,10 @@ h2 span {
   margin-top: 20rem;
 }
 .box-titre h1 {
-  margin-left: 33rem;
+  margin-left: 30rem;
 }
 .box-titre p {
-  margin-left: 33rem;
+  margin-left: 30.2rem;
   color: #999;
 }
 
@@ -365,6 +365,7 @@ h2 span {
   background-color: yellow;
 }
 .box-firstSec .bagImg {
+  display: inline-block;
   margin-left: 30rem;
   height: 20rem;
   width: 20rem;
@@ -372,6 +373,8 @@ h2 span {
   background-position: center;
   background-size: contain;
   position: relative;
+  bottom: 0rem;
+  top: 2rem;
 }
 .box-firstSec .txtBag {
   height: 60rem;
@@ -381,7 +384,7 @@ h2 span {
   position: absolute;
   left: 3rem;
   right: 0;
-  top: 18.5rem;
+  top: 18rem;
 }
 .box-firstSec .txtBag p .titleBag {
   font-size: 1.8rem;
@@ -394,11 +397,90 @@ h2 span {
 }
 .box-firstSec .txtBag p .priceBag:hover {
   font-size: 2.5rem;
+  color: #f68773;
 }
 .box-firstSec .txtBag p a {
   color: black;
 }
 .box-firstSec .txtBag p a:hover {
+  color: #f68773;
+}
+
+.img2sec1 {
+  display: inline-block;
+  height: 35rem;
+  width: 35rem;
+  background-image: url(/photos-homeDesktop/bsl2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20rem;
+  position: relative;
+  top: o;
+  bottom: 6rem;
+}
+.img2sec1 p {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 3rem;
+  right: 5rem;
+}
+.img2sec1 p .titleBag {
+  font-size: 2.4rem;
+}
+.img2sec1 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+.img2sec1 p .priceBag:hover {
+  font-size: 2.5rem;
+  color: #f68773;
+}
+.img2sec1 p a {
+  color: black;
+}
+.img2sec1 p a:hover {
+  color: #f68773;
+}
+
+.contain2sec {
+  width: 100%;
+  height: auto;
+  background-color: green;
+}
+.contain2sec .img1sec2 {
+  background-image: url(/photos-homeDesktop/bsl3.jpg);
+  width: 38rem;
+  height: 38rem;
+  display: inline-block;
+  background-size: contain;
+  background-position: center;
+  margin-left: 32rem;
+  position: relative;
+}
+.contain2sec .img1sec2 p {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  left: -7rem;
+}
+.contain2sec .img1sec2 p .titleBag {
+  font-size: 2.5rem;
+}
+.contain2sec .img1sec2 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+.contain2sec .img1sec2 p .priceBag:hover {
+  font-size: 2.5rem;
+  color: #f68773;
+}
+.contain2sec .img1sec2 p a {
+  color: black;
+}
+.contain2sec .img1sec2 p a:hover {
   color: #f68773;
 }
 

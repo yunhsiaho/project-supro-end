@@ -228,7 +228,7 @@ hr{
 //start last section header
 
 .contSecThree .wor .col{
-    width: 33.333%;
+    width: 33%;
     
     
     
@@ -424,10 +424,10 @@ h2 span {
        margin-top: 20rem;
        //background: red;
        h1{
-          margin-left: 33rem;
+          margin-left: 30rem;
        }
        p{
-           margin-left: 33rem;
+           margin-left: 30.2rem;
            color: $color-secondary;
        }
    }
@@ -436,8 +436,9 @@ h2 span {
        height: auto;
        width: 100%;
        margin-top: 3rem;
-       background-color: yellow;
+       background-color:yellow;
        .bagImg{
+           display: inline-block;
            margin-left: 30rem;
            height: 20rem;
            width: 20rem;
@@ -445,6 +446,9 @@ h2 span {
            background-position: center;
            background-size: contain;
            position: relative;
+           bottom: 0rem;
+           top: 2rem;
+           
        }
        .txtBag{
            height: 60rem;
@@ -454,7 +458,7 @@ h2 span {
                position: absolute;
                left: 3rem;
                right: 0;
-               top: 18.5rem;
+               top: 18rem;
                 .titleBag{
                    font-size: 1.8rem;
                 }
@@ -465,6 +469,7 @@ h2 span {
                     transition-duration: 1s;
                     &:hover{
                         font-size: 2.5rem;
+                        color: $color-orange;
                     }
                     
                 }
@@ -476,8 +481,102 @@ h2 span {
                 }
             }
         }
+        
                    
    }
+
+   .img2sec1{
+       display: inline-block;
+       height: 35rem;
+       width: 35rem;
+       background-image: url(/photos-homeDesktop/bsl2.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-left: 20rem;
+       position: relative;
+       top: o;
+       bottom: 6rem;
+       p{
+           display: flex;
+           flex-direction: column;
+           position: relative;
+           top: 3rem;
+           right: 5rem;
+           .titleBag{
+               font-size: 2.4rem;
+           }
+           .priceBag{
+            opacity: .5;
+            color: $color-secondary;
+            
+            &:hover{
+                font-size: 2.5rem;
+                color: $color-orange;
+            }
+           }
+           
+            a{
+                color: $color-black;
+                &:hover{
+                    color: $color-orange;
+                }
+            }
+           
+           
+       }
        
-      
+       
+   }
+
+   //start 2 SECTION
+
+   .contain2sec{
+       width: 100%;
+       height: auto;
+       background-color: green;
+
+       .img1sec2{
+           background-image: url(/photos-homeDesktop/bsl3.jpg);
+           width: 38rem;
+           height: 38rem;
+           display: inline-block;
+           background-size: contain;
+           background-position: center;
+           margin-left: 32rem;
+           position: relative;
+           p{
+               display: flex;
+               flex-direction: column;
+               position: absolute;
+               top: 5rem;
+               left: -7rem;
+               .titleBag{
+                   font-size: 2.5rem;
+               }
+               .priceBag{
+                opacity: .5;
+                color: $color-secondary;
+                
+                &:hover{
+                    font-size: 2.5rem;
+                    color: $color-orange;
+                }
+                
+                
+            }
+            a{
+                color: $color-black;
+                &:hover{
+                    color: $color-orange;
+                }
+            }
+        }
+                    
+            
+        }
+    }
+               
+           
+       
    
