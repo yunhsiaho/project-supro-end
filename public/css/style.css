@@ -11,6 +11,7 @@ html {
 body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  color: #F2EDE9;
 }
 
 body {
@@ -178,21 +179,28 @@ hr {
 }
 
 .contSecThree .wor .col {
-  width: 33%;
+  width: 33.333%;
 }
 
 .col1 {
   background-image: url(/photos-homeDesktop/banner_h1_1.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  height: 37rem;
 }
 
 .col2 {
   background-image: url(/photos-homeDesktop/banner_h1_2.jpg);
   background-position: center;
+  height: 37rem;
 }
 
 .col3 {
   background-image: url(/photos-homeDesktop/banner_h1_3.jpg);
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  height: 37rem;
 }
 
 .img3 {
@@ -233,18 +241,165 @@ h2 span {
   color: white;
 }
 .wor .col1:hover a {
-  color: #f68773;
+  color: white;
   margin-right: 7rem;
+  margin-bottom: 6rem;
+  position: relative;
+  bottom: 3rem;
 }
 .wor .col1:hover h2 {
   margin-left: 18rem;
+  font-size: 4rem;
 }
 .wor .col1:hover p {
-  font-size: large;
+  font-size: 1.3rem;
   color: white;
   position: relative;
   top: 0;
   left: 3rem;
+  bottom: 0;
+}
+
+.wor .col2 .stock2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  margin-right: 18rem;
+}
+.wor .col2 .stock2 p {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 18rem;
+}
+.wor .col2 .stock2 h2 {
+  margin-left: 19rem;
+  font-size: 4rem;
+  color: white;
+}
+.wor .col2 .stock2 a {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  position: relative;
+  left: 10rem;
+}
+
+.wor .col2:hover {
+  background-image: url(/photos-homeDesktop/banner_h1_1.jpg);
+  background-position: center;
+}
+.wor .col2:hover p {
+  color: #999;
+}
+.wor .col2:hover h2 {
+  font-size: 5rem;
+  color: black;
+  margin-right: 13rem;
+}
+.wor .col2:hover a {
+  color: #999;
+  margin-top: 6rem;
+  margin-left: 7rem;
+}
+
+/* start col3 texte */
+.col3 .stock3 {
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+}
+.col3 .stock3 p {
+  margin-left: 10rem;
+  color: #999;
+  font-size: 1.3rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+.col3 .stock3 p:hover {
+  transform: scale(2);
+}
+.col3 .stock3 h2 {
+  margin-left: 3rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+.col3 .stock3 h2:hover {
+  transform: rotate(360deg);
+}
+.col3 .stock3 a {
+  color: #999;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+.col3 .stock3 a:hover {
+  transform: scale(2.2) translateX(-50px);
+  color: black;
+}
+
+.box-titre {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-top: 20rem;
+}
+.box-titre h1 {
+  margin-left: 33rem;
+}
+.box-titre p {
+  margin-left: 33rem;
+  color: #999;
+}
+
+.box-firstSec {
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+  background-color: yellow;
+}
+.box-firstSec .bagImg {
+  margin-left: 30rem;
+  height: 20rem;
+  width: 20rem;
+  background-image: url(/photos-homeDesktop/bsl1.jpg);
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+.box-firstSec .txtBag {
+  height: 60rem;
+  margin-left: 4rem;
+}
+.box-firstSec .txtBag p {
+  position: absolute;
+  left: 3rem;
+  right: 0;
+  top: 18.5rem;
+}
+.box-firstSec .txtBag p .titleBag {
+  font-size: 1.8rem;
+}
+.box-firstSec .txtBag p .priceBag {
+  opacity: 0.5;
+  color: #999;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.box-firstSec .txtBag p .priceBag:hover {
+  font-size: 2.5rem;
+}
+.box-firstSec .txtBag p a {
+  color: black;
+}
+.box-firstSec .txtBag p a:hover {
+  color: #f68773;
 }
 
 /*# sourceMappingURL=style.css.map */
