@@ -1,0 +1,309 @@
+@import './utils/variables';
+@import './utils/functions';
+@import './utils/mixins';
+@import './utils/placeholder';
+
+@import './base/base';
+@import './base/typography';
+
+@import './components/buttons';
+
+
+@import './layout/header';
+@import './layout/nav';
+@import './layout/container';
+@import './layout/form';
+@import './layout/footer';
+
+@import './pages/work';
+@import './pages/about';
+@import './pages/project';
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+//header et bg
+header{
+    height: 140vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.img-bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: -1;
+    
+    
+    
+   
+}
+
+
+
+//nav bar
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    
+   
+}
+.navbar-brand{
+    position: relative;
+    left: 5%;
+    text-decoration: none;
+    color: $color-orange;
+    font-weight: bold;
+    &:hover{
+        color: $color-black;
+        font-size: 4rem;
+
+    }
+    
+}
+
+.navbar-nav{
+    position: relative;
+    left: 12%;
+    .nav-link{
+        color: $color-black;
+        text-decoration: none;
+        font-size: .9rem;
+        &:hover{
+            font-size: 1.1rem;
+            color: $color-orange;
+        }
+    }
+}
+.d-flex{
+    position: relative;
+    right: 15%;
+    cursor: pointer;
+    .form-control{
+        border: none;
+        font-size: .9rem;
+    }
+    .btn{   
+    position: absolute;
+    font-size: 1rem;
+    color: $color-secondary;
+    top:-4px;
+    left:100%;
+    }
+}
+
+.small-icons{
+    position: relative;
+    right: 5%;
+    i{
+        font-size: 1rem;
+    }
+    
+}
+
+ul li {
+    margin: 0 .5rem;
+    
+}
+
+//contain du header
+//left
+.contain{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    .containLeft{
+        padding: 3rem;
+        //margin-bottom: 13rem;
+        
+        ul li {
+            list-style-type: none;
+            padding: 1rem;
+            
+            font-size: 1.6rem;
+            margin-left: 3rem;
+            a{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-orange;
+                    font-size: 2rem;
+                }
+            }
+
+        }
+    }
+}
+//middle
+
+.contain{
+    .containMiddle{
+        padding: 0rem;
+        //margin-bottom: 13rem;
+        .firstTitle{
+            font-size: 10rem;
+            color: $color-white;
+        }
+        a{
+            color:$color-white;
+            margin-left: 8rem;
+            font-size: 1.3rem;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                //color: $color-orange;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+//right
+.contain{
+    
+    .containRight{
+        padding: 0rem;
+        margin-right: 2rem;
+        //margin-bottom: 13rem;
+         .firstWord {
+            font-size: 1rem;
+            opacity: .5;
+            text-decoration: none;
+            color: $color-black;
+            display: block;
+
+            &:hover{
+                font-size: 2.5rem;
+                opacity: 1;
+                color: $color-orange;
+            }
+            
+        
+
+        }
+        .lastWord{
+            font-size: 2rem;
+            color: $color-black;
+            opacity: 0.5;
+            text-decoration: none;
+
+            &:hover{
+                font-size: 1.3rem;
+                opacity: 1;
+                color: $color-orange;
+            }
+        }
+          .up{
+            &:hover{
+                font-size: 3.3rem;
+                
+            }
+        }
+    }
+}
+hr{
+    width: 75%;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 4rem;
+}
+
+
+//start last section header
+
+.contSecThree .wor .col{
+    width: 33%;
+    
+    
+    
+}
+ .col1{
+     background-image: url(/photos-homeDesktop/banner_h1_1.jpg);
+     background-position: center;
+     
+ }
+  
+.col2{
+    background-image: url(/photos-homeDesktop/banner_h1_2.jpg);
+    background-position: center;
+}
+.col3{
+    background-image: url(/photos-homeDesktop/banner_h1_3.jpg);
+    
+}
+//hack image
+
+.img3{
+    opacity: 0;
+}
+.wor .col1 .stock1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    margin-right: 18rem;
+    p{
+        //opacity: 0.5;
+        color: $color-secondary;
+        font-size: 1.3rem;
+        margin-left: 13rem;
+    }
+    h2{
+        font-size: 5rem;
+    }
+    a{
+        color: $color-secondary;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        position: relative;
+        left: 13rem;
+    }
+
+}
+h2 span {
+    margin-left: 2.1rem;
+}
+.wor .col1 {
+    &:hover{
+        background-image: url(/photos-homeDesktop/banner_h1_2.jpg);
+        background-position: center;
+        color: $color-white;
+
+        a{
+            color: $color-orange;
+            margin-right: 7rem;
+        }
+
+        h2{
+            margin-left: 18rem;
+        }
+        p{
+            font-size: large;
+            color: $color-white;
+            position : relative; 
+            top: 0;
+            left: 3rem;
+        }
+    }
+}
+
+//start col2 texte dans imge!!
+
