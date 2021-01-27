@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "sass": "sass --watch ./sass/style.scss:./public/css/style.css",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+=======
+    "scss": "node-sass --watch src/scss --output src/css --source-map true"
+>>>>>>> bb857d0c781c9c7e7276925c621f247e1c29baab
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/Tselawi/project-supro/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/Tselawi/project-supro#readme"
+=======
+  "homepage": "https://github.com/Tselawi/project-supro#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+>>>>>>> bb857d0c781c9c7e7276925c621f247e1c29baab
 }
