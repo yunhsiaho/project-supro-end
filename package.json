@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
 
+
     "sass": "sass --watch ./sass/style.scss:./public/css/style.css",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
 
   
+
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,5 @@
     "url": "https://github.com/Tselawi/project-supro/issues"
   },
 
-  "homepage": "https://github.com/Tselawi/project-supro#readme"
-}
+  "homepage": "https://github.com/Tselawi/project-supro#readme"}
+
