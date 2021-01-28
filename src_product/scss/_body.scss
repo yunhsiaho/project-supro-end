@@ -92,12 +92,16 @@
 .product_pics{
     margin-right:0;
 }
+.num1{
+    margin-left:30%;
+    margin-right:30%;
+}
 .cat_tag{
-    font-size:12px;
+    font-size:15px;
     font-weight:500;
 }
 .tags{
-    font-size:12px;
+    font-size:15px;
     font-weight:400;
 }
 .middleline{
@@ -110,11 +114,9 @@
 .setting_bottom{
     margin-bottom: 100px;
 }
-.grayline{
-    color: $greyColor;
-}
 
 
+/*pour footer*/
 .footer_title{
     font-weight: 600;
 }
@@ -122,3 +124,11 @@
     color:$greyColor;
     
 }
+.grayline{
+    color:$greyColor;
+}
+
+
+/*pour responsive*/
+/*mobile*/
+
