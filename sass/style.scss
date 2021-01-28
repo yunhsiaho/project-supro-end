@@ -436,7 +436,7 @@ h2 span {
        height: auto;
        width: 100%;
        margin-top: 3rem;
-       background-color:yellow;
+       //background-color:yellow;
        .bagImg{
            display: inline-block;
            margin-left: 30rem;
@@ -461,6 +461,7 @@ h2 span {
                top: 18rem;
                 .titleBag{
                    font-size: 1.8rem;
+                   font-weight: bold;
                 }
                 .priceBag{
                     opacity: .5;
@@ -477,6 +478,7 @@ h2 span {
                     color: $color-black;
                     &:hover{
                         color: $color-orange;
+                        text-decoration: none;
                     }
                 }
             }
@@ -505,6 +507,7 @@ h2 span {
            right: 5rem;
            .titleBag{
                font-size: 2.4rem;
+               font-weight: bold;
            }
            .priceBag{
             opacity: .5;
@@ -520,6 +523,7 @@ h2 span {
                 color: $color-black;
                 &:hover{
                     color: $color-orange;
+                    text-decoration: none;
                 }
             }
            
@@ -534,7 +538,7 @@ h2 span {
    .contain2sec{
        width: 100%;
        height: auto;
-       background-color: green;
+       //background-color: green;
 
        .img1sec2{
            background-image: url(/photos-homeDesktop/bsl3.jpg);
@@ -543,7 +547,7 @@ h2 span {
            display: inline-block;
            background-size: contain;
            background-position: center;
-           margin-left: 32rem;
+           margin-left: 29rem;
            position: relative;
            p{
                display: flex;
@@ -553,6 +557,7 @@ h2 span {
                left: -7rem;
                .titleBag{
                    font-size: 2.5rem;
+                   font-weight: bold;
                }
                .priceBag{
                 opacity: .5;
@@ -569,14 +574,265 @@ h2 span {
                 color: $color-black;
                 &:hover{
                     color: $color-orange;
+                    text-decoration: none;
                 }
             }
         }
                     
             
         }
+        .img2sec2{
+            width: 20rem;
+            height: 20rem;
+            display: inline-block;
+            background-image: url(/photos-homeDesktop/bsl4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-bottom: 13rem;
+            margin-left: 23rem;
+            position: relative;
+            
+            p{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 18rem;
+                left: 2rem;
+                .titleBag{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+                .priceBag{
+                    opacity: .5;
+                    color: $color-secondary;
+                    &:hover{
+                        color: $color-orange;
+                        font-size: 2.5rem;
+                    }
+                    
+                }
+                a{
+                
+                    color: $color-black;
+                    &:hover{
+                        color: $color-orange;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
     }
-               
-           
-       
-   
+             //end 2section 
+             //start sec3title
+
+.box-sec3title{
+    width: 100%;
+    height: 150px;
+    //background-color: orange;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .sec3title{
+        p{
+            color: $color-secondary;
+        }
+    }
+    .choice{
+        a{
+         display: inline-block;
+         padding: 1.2rem;
+         font-size: 1.3rem;
+         opacity: 0.5;
+         text-decoration: none;
+         color: $color-black;
+         &:hover{
+             font-size: 1.5rem;
+             opacity: 1;
+
+         }
+        }
+    }
+}
+//end sect3 title
+//start first sec3 3img
+
+.firstcontain3img{
+    width: 100%;
+    height: 35rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    .firstimg{
+        background-image: url(/photos-homeDesktop/prd_05_1_2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20rem;
+        height: 25rem;
+        p{
+            margin-top: 25rem;
+            margin-left: 2.5rem;
+            .title{
+                font-size: large;
+            }
+            .icon{
+                margin-left: 4.5rem;
+            }
+            .clr{
+                color: $color-orange;
+                
+            }
+            .price{
+                color: $color-secondary;
+                margin-left: 6rem;
+                &:hover{
+                    font-size: 1.5rem;
+                    color: $color-orange;
+                }
+            }
+        }
+    }
+    .secondimg{
+        background-image: url(/photos-homeDesktop/sec4img2.png);
+        background-position: center;
+        background-size: cover;
+        width: 20rem;
+        height: 25rem;
+        p{
+            margin-top: 25rem;
+            margin-left: 2.5rem;
+            .title{
+                font-size: large;
+                .t-shirt{
+                    margin-left: 5rem;
+                }
+            }
+            .icon{
+                margin-left: 4.5rem;
+            }
+            .clr{
+                color: $color-orange;
+            }
+            .price{
+                color: $color-secondary;
+                margin-left: 6rem;
+                &:hover{
+                    font-size: 1.5rem;
+                    color: $color-orange;
+            }
+        }
+
+    }
+    }
+}
+.thirdimg
+{
+    background-image: url(/photos-homeDesktop/sec4img3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20rem;
+    height: 25rem;
+    p{
+        margin-top: 25rem;
+        margin-left: 2.5rem;
+        .title{
+            font-size: large;
+            .t-shirt{
+                margin-left: 5rem;
+            }
+        }
+        .icon{
+            margin-left: 4.5rem;
+        }
+        .clr{
+            color: $color-orange;
+        }
+        .price{
+            color: $color-secondary;
+            margin-left: 6rem;
+            &:hover{
+                font-size: 1.5rem;
+                color: $color-orange;
+        }
+    }
+
+}
+}
+//end first sec 3img
+
+//start seconde sec 3 img
+
+.secondecontain3img{
+    width: 100%;
+    height: 35rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    .firstimg{
+        background-image: url(/photos-homeDesktop/sec5img1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20rem;
+        height: 25rem;
+        p{
+            margin-top: 25rem;
+            margin-left: 2.5rem;
+            .title{
+                font-size: large;
+                margin-left: 2rem;
+            
+            }
+            .icon{
+                margin-left: 4.5rem;
+            }
+            .clr{
+                color: $color-orange;
+            }
+            .price{
+                color: $color-secondary;
+                margin-left: 6rem;
+                &:hover{
+                    font-size: 1.5rem;
+                    color: $color-orange;
+                }
+            }
+        }
+    }
+    .secondimg{
+        background-image: url(/photos-homeDesktop/sec5img2.png);
+        background-position: center;
+        background-size: cover;
+        width: 20rem;
+        height: 25rem;
+        p{
+            margin-top: 25rem;
+            margin-left: 2.5rem;
+            .title{
+                font-size: large;
+                margin-left: 1.5rem;
+                .pousse{
+                    margin-left: 4rem;
+                }
+            }
+            .icon{
+                margin-left: 4.5rem;
+            }
+            .clr{
+                color: $color-orange;
+            }
+            .price{
+                color: $color-secondary;
+                margin-left: 6rem;
+                &:hover{
+                    color: $color-orange;
+                    font-size: 1.5rem;
+                }
+            }
+            
+        }
+    }
+}

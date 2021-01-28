@@ -362,7 +362,6 @@ h2 span {
   height: auto;
   width: 100%;
   margin-top: 3rem;
-  background-color: yellow;
 }
 .box-firstSec .bagImg {
   display: inline-block;
@@ -388,6 +387,7 @@ h2 span {
 }
 .box-firstSec .txtBag p .titleBag {
   font-size: 1.8rem;
+  font-weight: bold;
 }
 .box-firstSec .txtBag p .priceBag {
   opacity: 0.5;
@@ -404,6 +404,7 @@ h2 span {
 }
 .box-firstSec .txtBag p a:hover {
   color: #f68773;
+  text-decoration: none;
 }
 
 .img2sec1 {
@@ -428,6 +429,7 @@ h2 span {
 }
 .img2sec1 p .titleBag {
   font-size: 2.4rem;
+  font-weight: bold;
 }
 .img2sec1 p .priceBag {
   opacity: 0.5;
@@ -442,12 +444,12 @@ h2 span {
 }
 .img2sec1 p a:hover {
   color: #f68773;
+  text-decoration: none;
 }
 
 .contain2sec {
   width: 100%;
   height: auto;
-  background-color: green;
 }
 .contain2sec .img1sec2 {
   background-image: url(/photos-homeDesktop/bsl3.jpg);
@@ -456,7 +458,7 @@ h2 span {
   display: inline-block;
   background-size: contain;
   background-position: center;
-  margin-left: 32rem;
+  margin-left: 29rem;
   position: relative;
 }
 .contain2sec .img1sec2 p {
@@ -468,6 +470,7 @@ h2 span {
 }
 .contain2sec .img1sec2 p .titleBag {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 .contain2sec .img1sec2 p .priceBag {
   opacity: 0.5;
@@ -482,6 +485,240 @@ h2 span {
 }
 .contain2sec .img1sec2 p a:hover {
   color: #f68773;
+  text-decoration: none;
+}
+.contain2sec .img2sec2 {
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+  background-image: url(/photos-homeDesktop/bsl4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 13rem;
+  margin-left: 23rem;
+  position: relative;
+}
+.contain2sec .img2sec2 p {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 18rem;
+  left: 2rem;
+}
+.contain2sec .img2sec2 p .titleBag {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.contain2sec .img2sec2 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+.contain2sec .img2sec2 p .priceBag:hover {
+  color: #f68773;
+  font-size: 2.5rem;
+}
+.contain2sec .img2sec2 p a {
+  color: black;
+}
+.contain2sec .img2sec2 p a:hover {
+  color: #f68773;
+  text-decoration: none;
+}
+
+.box-sec3title {
+  width: 100%;
+  height: 150px;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box-sec3title .sec3title p {
+  color: #999;
+}
+.box-sec3title .choice a {
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  opacity: 0.5;
+  text-decoration: none;
+  color: black;
+}
+.box-sec3title .choice a:hover {
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.firstcontain3img {
+  width: 100%;
+  height: 35rem;
+  background-color: crimson;
+  display: flex;
+  justify-content: space-around;
+}
+.firstcontain3img .firstimg {
+  background-image: url(/photos-homeDesktop/prd_05_1_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+.firstcontain3img .firstimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+.firstcontain3img .firstimg p .title {
+  font-size: large;
+}
+.firstcontain3img .firstimg p .icon {
+  margin-left: 4.5rem;
+}
+.firstcontain3img .firstimg p .clr {
+  color: #f68773;
+}
+.firstcontain3img .firstimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+.firstcontain3img .firstimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+.firstcontain3img .secondimg {
+  background-image: url(/photos-homeDesktop/sec4img2.png);
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+.firstcontain3img .secondimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+.firstcontain3img .secondimg p .title {
+  font-size: large;
+}
+.firstcontain3img .secondimg p .title .t-shirt {
+  margin-left: 5rem;
+}
+.firstcontain3img .secondimg p .icon {
+  margin-left: 4.5rem;
+}
+.firstcontain3img .secondimg p .clr {
+  color: #f68773;
+}
+.firstcontain3img .secondimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+.firstcontain3img .secondimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.thirdimg {
+  background-image: url(/photos-homeDesktop/sec4img3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+.thirdimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+.thirdimg p .title {
+  font-size: large;
+}
+.thirdimg p .title .t-shirt {
+  margin-left: 5rem;
+}
+.thirdimg p .icon {
+  margin-left: 4.5rem;
+}
+.thirdimg p .clr {
+  color: #f68773;
+}
+.thirdimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+.thirdimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.secondecontain3img {
+  width: 100%;
+  height: 35rem;
+  background-color: crimson;
+  display: flex;
+  justify-content: space-around;
+}
+.secondecontain3img .firstimg {
+  background-image: url(/photos-homeDesktop/sec5img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+.secondecontain3img .firstimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+.secondecontain3img .firstimg p .title {
+  font-size: large;
+  margin-left: 2rem;
+}
+.secondecontain3img .firstimg p .icon {
+  margin-left: 4.5rem;
+}
+.secondecontain3img .firstimg p .clr {
+  color: #f68773;
+}
+.secondecontain3img .firstimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+.secondecontain3img .firstimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+.secondecontain3img .secondimg {
+  background-image: url(/photos-homeDesktop/sec5img2.png);
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+.secondecontain3img .secondimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+.secondecontain3img .secondimg p .title {
+  font-size: large;
+  margin-left: 1.5rem;
+}
+.secondecontain3img .secondimg p .title .pousse {
+  margin-left: 4rem;
+}
+.secondecontain3img .secondimg p .icon {
+  margin-left: 4.5rem;
+}
+.secondecontain3img .secondimg p .clr {
+  color: #f68773;
+}
+.secondecontain3img .secondimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+.secondecontain3img .secondimg p .price:hover {
+  color: #f68773;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
