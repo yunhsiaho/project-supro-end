@@ -12,8 +12,8 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-        <link rel="stylesheet" href="multirange.css">
-<script src="multirange.js"></script>
+    <link rel="stylesheet" href="multirange.css">
+    <script src="multirange.js"></script>
     <title>Project-Supro-Shop</title>
 </head>
 
@@ -21,24 +21,24 @@
     <main>
         <section>
             <div>
-                <nav class="navbar navbar-expand-md fixed-top">
+                <nav class="navbar navbar-expand-lg fixed-top">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Supro.</a>
+                        <a class="navbar-brand" href="home.html">Supro.</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <div class="collapse navbar-collapse nav-01" id="navbarsExampleDefault">
                             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                                 <li class="nav-item active">
                                     <a class="nav-link" aria-current="page" href="home.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Shop</a>
+                                    <a class="nav-link" href="shop.html">Shop</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Collection</a>
+                                    <a class="nav-link" href="product.html">Collection</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Pages</a>
@@ -56,6 +56,7 @@
                                     <i class="fas fa-search"></i>
                                 </button>
                             </form>
+                                
                             <form class="small-icons">
                                 <button type="button" class="btn">
                                     <i class="far fa-user"></i>
@@ -67,6 +68,13 @@
                                     <i class="fas fa-shopping-cart"></i>
                                 </button>
                             </form>
+                            <div class="collapse bg-dark" id="navbarToggleExternalContent">
+                            <nav class="navbar navbar-dark bg-dark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            </nav>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -75,25 +83,28 @@
         <!--grid template-->
 
         <section class="grid-container">
-                    <div class="active-filters">
-                        <h4>Active filters</h4>
-                        <ul class="list-filters">
-                            <li><span>&#10005</span> Min £ 9.00</li>
-                            <li><span>&#10005</span> Max £ 9.00</li>
-                            <li><span>&#10005</span> Remove all filter</li>
-                        </ul>
-                    </div>
-                    <div class="grid-shop">
-                        <h2>Shop</h2>
-                        <p><span class="shop-home">Home ●</span>  Shop </p>    
-                    </div> 
-                    <div class="grid-products">
-                        <p class="products">25 <span class="product-content">Products Found</span> Filter <i class="fas fa-chevron-down"></i>
-                        <span class="text">Sortby <span class="product-content">Default</span> <i class="fas fa-chevron-down"></i></span>
-                        <i class="fas fa-th"></i> <i class="fas fa-list-ul"></i></p>
-                    </div>      
-        
-                <!--Categories-->
+            <div class="active-filters">
+                <h4 class="filter-title1">Active filters</h4>
+                <ul class="list-filters">
+                    <li><span>&#10005;</span> Min £ 9.00</li>
+                    <li><span>&#10005;</span> Max £ 9.00</li>
+                    <li><span>&#10005;</span> Remove all filter</li>
+                </ul>
+            </div>
+            <div class="grid-shop">
+                <h2>Shop</h2>
+                <p><span class="shop-home">Home <i class="fas fa-circle"></i></span> Shop </p>
+            </div>
+            <div class="grid-products">
+                <p class="products">25 <span class="product-content">Products Found</span><span class="product-text">
+                    Filter <i class="fas fa-chevron-down"></i></span>
+                    <span class="text">Sortby <span class="product-content1">Default</span> <i
+                            class="fas fa-chevron-down"></i></span>
+                    <i class="fas fa-th"></i> <i class="fas fa-list-ul"></i>
+                </p>
+            </div>
+
+            <!--Categories-->
             <div class="categories">
                 <h4 class="cat-title">Categories</h4>
                 <ul class="shop-items">
@@ -109,49 +120,292 @@
                 </ul>
             </div>
             <div class="filter-price">
-                <h4 class="filter-title">Filter price</h4>
-                <div class="bar">
-                    <span>
-                    <div class="square"></div>
-                    </span>
-                    <span>
-                    <hr class="new1">
-                    </span>
-                    <span>
-                    <div class="square1"></div>
-                    </span>
-                </div>
-                <div>
-                <p class="price">PRICE: $0 - $100</p> 
+                <div class="filter-title">Filter price
+                    <div class="bar">
+                        <span>
+                            <span class="square"></span>
+                        </span>
+                        <span>
+                            <hr class="new1">
+                        </span>
+                            <span>
+                                <span class="square1"></span>
+                            </span>
+                    </div>
+                        <div>
+                            <p class="price">PRICE: $0 - $100</p>
+                        </div>
                 </div>
             </div>
             <div class="color-list">
-                <label class="container">Black
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Blue
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Gold
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Nude
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Orange
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">red
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-            </div>  
-        </section> 
+                <ul class="sort-list">
+                    <li class="l-black">
+                        <label class="container">Black
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="l-blue">
+                        <label class="container">Blue
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="l-gold">
+                        <label class="container">Gold
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="l-nude">
+                        <label class="container">Nude
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="l-orange">
+                        <label class="container">Orange
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li class="l-red">
+                        <label class="container">Red
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <p class="size-text">LMSXL</p>
+                </ul>
+            </div>
+            <div class="product-sample">
+                <div class="product-title"><p class="pro-text">Products</p>
+                <div class="img-container-1">
+                    <img class="i-img" src="/image-shops/3.jpg" alt="Embroidered">
+                    <div class="sample-content">
+                        <p>Embroidered Fl...</p>
+                        <img class="star-rate" src="/image-shops/002-rating.png" alt="rate">
+                        <p class="num-prise">￡ 56.89</p>
+                    </div>
+                </div>
+                <div class="img-container-2">
+                    <img class="i-img" src="/image-shops/prd_05_20.jpg" alt="bag">
+                    <div class="sample-content">
+                        <p>Contrast Backp...</p>
+                        <img class="star-rate" src="/image-shops/002-rating.png" alt="rate">
+                        <p class="num-prise">￡ 56.89</p>
+                    </div>
+                </div>
+                <div class="img-container-3">
+                    <img class="i-img" src="/image-shops/5.jpg" alt="Embroidered">
+                    <div class="sample-content">
+                        <p>Mango Women'...</p>
+                        <img class="star-rate" src="/image-shops/002-rating.png" alt="rate">
+                        <p class="num-prise">￡ 56.89</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card-01">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/1.jpg" onmouseover="this.src='/image-shops/1-h.jpg';" onmouseout="this.src='/image-shops/1.jpg'" class="card-img-top  ani-01" alt="sun-glass">
+                            <div class="card-body">
+                            <p class="card-text">Aviator Sunglasses
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 9.90</p></p>
+                            </div>
+                        </div> 
+                </div>
+            </div>
+            <div class="card-02">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/prd_05_20.jpg" onmouseover="this.src='/image-shops/prd_05_30.jpg'" onmouseout="this.src='/image-shops/prd_05_20.jpg'" class="card-img-top ani-01" alt="Backpack">
+                            <div class="card-body">
+                            <p class="card-text">Contrast Backpack
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 69.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-03">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/3.jpg" onmouseover="this.src='/image-shops/3-h.jpg'" onmouseout="this.src='/image-shops/3.jpg'" class="card-img-top ani-01" alt="Embroidered flowy jacket">
+                            <div class="card-body">
+                            <p class="card-text">Embroidered Flowy Jacket
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 56.89</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-04">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/4.jpg" onmouseover="this.src='/image-shops/4-h.jpg'" onmouseout="this.src='/image-shops/4.jpg'" class="card-img-top ani-01" alt="Floral Short Jumpsuit">
+                            <div class="card-body">
+                            <p class="card-text">Floral Short Jumpsuit
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 97.99</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-05">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/5.jpg" onmouseover="this.src='/image-shops/5-h.jpg'" onmouseout="this.src='/image-shops/5.jpg'" class="card-img-top ani-01" alt="Mango Women's Bag">
+                            <div class="card-body">
+                            <p class="card-text">Mango Women's Bag
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 89.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-06">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/6.jpg" onmouseover="this.src='/image-shops/6-h.jpg'" onmouseout="this.src='/image-shops/6.jpg'" class="card-img-top ani-01" alt="Glitter Decorated Shoes">
+                            <div class="card-body">
+                            <p class="card-text">Glitter Decorated Shoes
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 56.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-07">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/7.jpg" onmouseover="this.src='/image-shops/7-h.jpg'" onmouseout="this.src='/image-shops/7.jpg'" class="card-img-top ani-0" alt="Contrasting Design T-Shirt">
+                            <div class="card-body">
+                                <p class="hot-box">Hot</p>
+                            <p class="card-text">Contrasting Design T-Shirt
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 95.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-08">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/8.jpg" onmouseover="this.src='/image-shops/8-h.jpg'" onmouseout="this.src='/image-shops/8.jpg'" class="card-img-top ani-0" alt="Furry Hooded Perka">
+                            <div class="card-body">
+                            <p class="card-text">Furry Hooded Perka
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 95.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-09">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/9.jpg" onmouseover="this.src='/image-shops/9-h.jpg'" onmouseout="this.src='/image-shops/9.jpg'" class="card-img-top ani-0" alt="Wrap Back Dress">
+                            <div class="card-body">
+                                <p class="hot-sale">Sale</p>
+                            <p class="card-text">Wrap Back Dress
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 55.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-10">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/10.jpg" onmouseover="this.src='/image-shops/10-h.jpg'" onmouseout="this.src='/image-shops/10.jpg'" class="card-img-top ani-0" alt="Leather Shop Bag">
+                            <div class="card-body">
+                            <p class="card-text">Leather Shop Bag
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 59.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-11">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/11.jpg" onmouseover="this.src='/image-shops/11-h.jpg'" onmouseout="this.src='/image-shops/11.jpg'" class="card-img-top ani-01" alt="Shearling Leather Jacket">
+                            <div class="card-body">
+                            <p class="card-text">Shearling Leather Jacket
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 159.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="card-12">
+                <div>
+                    <div class="card" id="card" style="width: 14rem;">
+                        <img src="image-shops/12.jpg" onmouseover="this.src='/image-shops/12-h.jpg'" onmouseout="this.src='/image-shops/12.jpg'" class="card-img-top ani-0" alt="Cropped Denim Jumpsuit">
+                            <div class="card-body">
+                            <p class="card-text">Cropped Denim Jumpsuit
+                            <img class="star-card" src="/image-shops/002-rating.png" alt="rate">
+                            <p class="card-prise">￡ 89.90</p></p>
+                            </div>
+                    </div> 
+                </div>
+            </div>
+            <div class=discover-grid>
+                <div class="discover-title">
+                    <a class="discover-text" href="#">DISCOVER MORE</a>
+                </div>
+            </div>
+        </section>
     </main>
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row my-5">
+                <div class="col-lg-2"></div>
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-4 col-lg-2 mx-3">
+                            <p class="footer_title  my-5">HELP & INFORMATION</p>
+                            <p class="footer_items  my-2">Track Order</p>
+                            <p class="footer_items  my-2">Delivery & Returns</p>
+                            <p class="footer_items  my-2">Premier Delivery</p>
+                            <p class="footer_items  my-2">FAQs</p>
+                        </div>
+                        <div class="col-4 col-lg-2 mx-3">
+                            <p class="footer_title  my-5">ABOUT SUPRO</p>
+                            <p class="footer_items  my-2">About us</p>
+                            <p class="footer_items  my-2">Careers</p>
+                            <p class="footer_items  my-2">Coporate</p>
+                            <p class="footer_items  my-2">Investors</p>
+                        </div>
+                        <div class="col-4 col-lg-2  mx-3">
+                            <p class="footer_title  my-5">ONLINE SHOP</p>
+                            <p class="footer_items  my-2">Shoes</p>
+                            <p class="footer_items  my-2">Bags</p>
+                            <p class="footer_items  my-2">Wallets</p>
+                            <p class="footer_items  my-2">Belts</p>
+                        </div>
+                        <div class="col-4 col-lg-2  mx-3">
+                            <p class="footer_title  my-5">LANGUAGE</p>
+                            <p class="footer_items  m-2">English <i class="fas fa-angle-down"></i></p>
+                        </div>
+                        <div class="col-4 col-lg-2  mx-3">
+                            <p class="footer_title  my-5">CURRENCY</p>
+                            <p class="footer_items  m-2">USD <i class="fas fa-angle-down"></i></p>
+                        </div>    
+                    </div>
+                </div>  
+                <div class="col-lg-2"></div>    
+            </div>
+        </div>
+        <hr class="grayline"/>
+        <div class="d-block m-5">
+            <span class="footer_items">© 2019</span>
+            <span class="footer_title" >Supro.</span>
+            <span class="footer_items">All rights reserved.</span>
+        </div>
+    </section>
 </body>
+
 </html>
