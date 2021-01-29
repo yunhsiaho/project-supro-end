@@ -1,0 +1,156 @@
+@import "variables";
+
+
+    .card-01{
+        display: grid;
+        grid-row: 3;
+        grid-column: 3;
+        padding-left:1em;
+    }
+    .ani-01:hover{
+        cursor: progress;
+    }
+
+    #card{
+        border: solid white;
+        
+    }
+    .card-text{
+        position: relative;
+        bottom:5px;
+        right:10px;
+    }
+
+    .star-card{
+        position:absolute;
+        top:0px;
+        right:120px; 
+    }
+
+    .card-prise{
+        position: relative;
+        bottom: -8px;
+        right:10px;
+        font-size: .9rem;
+        color:$greyColor;
+    }
+
+    .card-02{
+        display: grid;
+        grid-row: 3;
+        grid-column: 4;
+        padding-left:1em;
+    }
+    .card-03{
+        display: grid;
+        grid-row: 3;
+        grid-column: 5;
+        padding-left:1em;
+    }
+    .card-04{
+        display: grid;
+        grid-row: 4;
+        grid-column: 3;
+        padding-left:1em;
+    }
+    
+    .card-05{
+        display: grid;
+        grid-row: 4;
+        grid-column: 4;
+        padding-left:1em; 
+    }
+    .card-06{
+        display: grid;
+        grid-row: 4;
+        grid-column: 5;
+        padding-left:1em; 
+    }
+    .card-07{
+        display: grid;
+        grid-row: 5;
+        grid-column: 3;
+        padding-left:1em; 
+    }
+    .card-08{
+        display: grid;
+        grid-row: 5;
+        grid-column: 4;
+        padding-left:1em; 
+    }
+    .card-09{
+        display: grid;
+        grid-row: 5;
+        grid-column: 5;
+        padding-left:1em; 
+    }
+    .card-10{
+        display: grid;
+        grid-row: 6;
+        grid-column: 3;
+        padding-left:1em; 
+    }
+    .card-11{
+        display: grid;
+        grid-row: 6;
+        grid-column: 4;
+        padding-left:1em; 
+    }
+    .card-12{
+        display: grid;
+        grid-row: 6;
+        grid-column: 5;
+        padding-left:1em; 
+    }
+
+    .discover-grid{
+        display: grid;
+        grid-row:7;
+        grid-column: 4;
+    }
+    .discover-title{
+       position: relative;
+       bottom:50px; 
+       left:55px
+    }
+    .discover-text{
+        color:$greyColor;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .discover-text:hover{
+        color:black;
+        transition: .5s;
+    }
+    .hot-box{
+        width: 40px;
+        height: 20px;
+        background-color:#E94259;
+        text-align: center;
+        position: absolute;
+        bottom: 270px;
+        font-size: .77rem;
+        color: white;
+        
+    }
+    .hot-sale{
+        width: 40px;
+        height: 20px;
+        background-color:#EE8771;
+        text-align: center;
+        position: absolute;
+        bottom: 270px;
+        font-size: .77rem;
+        color: white;
+    }
+
+    /*pour footer*/
+.footer_title{
+    font-weight: 600;
+}
+.footer_items{
+    color:$greyColor;
+}
+.grayline{
+    color:$greyColor;
+}
