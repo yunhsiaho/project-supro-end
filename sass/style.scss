@@ -661,7 +661,7 @@ h2 span {
 .firstcontain3img{
     width: 100%;
     height: 35rem;
-    background-color: crimson;
+    //background-color: crimson;
     display: flex;
     justify-content: space-around;
     .firstimg{
@@ -768,7 +768,7 @@ h2 span {
 .secondecontain3img{
     width: 100%;
     height: 35rem;
-    background-color: crimson;
+    //background-color: crimson;
     display: flex;
     justify-content: space-around;
     .firstimg{
@@ -835,4 +835,486 @@ h2 span {
             
         }
     }
+    .thirdimgsec2{
+        background-image: url(/photos-homeDesktop/sec5img3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 20rem;
+        height: 25rem;
+        p{
+            margin-top: 25rem;
+            margin-left: 4rem;
+            .title{
+                font-size: large;
+                .pousse{
+                    margin-left: 5rem;
+                }
+                
+            }
+            
+
+            .icon{
+                margin-left: 4.5rem;
+            }
+            .clr{
+                color: $color-orange;
+            }
+            .price{
+                color: $color-secondary;
+                margin-left: 6rem;
+                &:hover{
+                    font-size: 1.5rem;
+                    color: $color-orange;
+                }
+            }
+        }
+
+    }
 }
+
+//end section 2 3 img
+
+//start section Discover more 
+
+.containLink{
+    width: 100%;
+    height:5rem;
+    padding: 7rem;
+    //background-color:yellow;
+    .link{
+        text-align: center;
+        position: relative;
+        a{
+            color: $color-black;
+            text-decoration: underline double;
+            font-size: 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            &:hover{
+                font-weight: bold;
+                color: $color-orange;
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
+
+//end containLink
+
+//start contain Evenement
+
+.containEvent{
+    width: 100%;
+    height: 50rem;
+    //background-color: purple;
+    margin-top: 1rem;
+    .imgEvent{
+        width: 100%;
+        height: 100%;
+        background-image: url(/photos-homeDesktop/deals_image.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .condiEvent{
+            height: 100%;
+            width: 55rem;
+            //background-color: salmon;
+            margin-left: 20rem;
+            .entete{
+                display: inline-block;
+                margin-top: 7rem;
+                margin-left: 8rem;
+                .annonce{
+                    color: $color-secondary;
+                    font-size: 1.6rem;
+                    letter-spacing: .2rem;
+                }
+                .title{
+                    font-size: 3.5rem;
+                }
+                .pricebarrer{
+                    font-size: 1.4rem;
+                    text-decoration: line-through;
+                    opacity: .5;
+                }
+                .price{
+                    font-size: 1.6rem;
+                    color: $color-black;
+                    &:hover{
+                        color: $color-orange;
+                        font-size: 2rem;
+                    }
+                    
+                }
+                .btnn{
+                    text-decoration: none;
+                    color: black;
+                    background-color: transparent;
+                    border-radius: .5rem;
+                    border: 1px solid red ;
+                    &:hover{
+                        background-color: red;
+                        color: $color-white;
+                    }
+                    
+                }
+                //end sect entete
+   
+                //start sect day and link
+                
+            }
+            .day-link{
+                width:75%;
+                height: 50%;
+                //background-color: red ;
+                margin-top: 3rem;
+                margin-left: 8rem;
+                .contain4{
+                    display: flex;
+                    justify-content: space-between
+                    ;
+                    padding-left: 2rem;
+                    background-color: $color-white;
+                   
+                    .box{
+                        padding: 2rem;
+                        margin-right: 2rem;
+                        p{
+                            vertical-align: middle;
+                        }
+                        
+                        .nbrs{
+                            font-size: 1.6rem;
+                            text-transform: uppercase;
+                            color: $color-black;
+                        }
+                        .wrds{
+                            color: $color-secondary;
+                            font-size: .8rem;
+                            &:hover{
+                                color: $color-orange;
+                                font-size: 1.2rem;
+                            }
+                        }
+                        
+                    }
+                }
+                .linkShow {
+                    margin-top: 4.5rem;
+                    a{
+                        color: $color-black;
+                        text-decoration: underline double;
+                        font-size: 1.3rem;
+                        margin-top: 5rem;
+                        &:hover{
+                            color: $color-orange;
+                            font-size: 1.8rem;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}   
+
+// fin section Event
+
+//start section latest New
+
+.containLatest{
+    width: 100%;
+    height: auto;
+    //background: pink;
+    margin-top: 8rem;
+    .titleLatest{
+        display: flex;
+        justify-content: space-around;
+        p{
+            color: $color-secondary;
+            &:hover{
+                font-size: 1.4rem;
+                color: $color-orange;
+            }
+        }
+        a{
+            color: $color-black;
+            font-size: 1.3rem;
+            text-decoration: underline ;
+            display: inline-block;
+            margin-top: 3rem;
+            text-transform: uppercase;
+            &:hover{
+                color: $color-orange;
+                text-decoration: underline double $color-black;
+            }
+        }
+    }
+}
+  //end section titre Latest news
+  
+  //start section img latest news
+
+  .contain3img{
+      height: 35rem;
+      width: 100%;
+      //background-color: orange;
+      margin-top: 3rem;
+      display: flex;
+      justify-content: space-around;
+      .firstImg{
+          width: 40rem;
+          height: 25rem;
+          background-image: url(/photos-homeDesktop/blog1.jpg);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          .txt{
+              margin-top: 25rem;
+              margin-left: 5rem;
+          }
+          p{
+              color: $color-secondary;
+              font-size: 1rem;
+          }
+          span{
+              text-transform: uppercase;
+              color: $color-orange;
+              font-size: 1.3rem;
+          }
+          a{
+              color: $color-black;
+              text-transform: uppercase;
+              &:hover{
+                  color: $color-orange;
+                  text-decoration: underline double $color-black;
+              }
+          }
+      }
+      .twoImg{
+        width: 40rem;
+        height: 25rem;
+        background-image: url(/photos-homeDesktop/blog2.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .txt2{
+            margin-top: 25rem;
+            margin-left: 5rem;
+        }
+        p{
+            color: $color-secondary;
+            font-size: 1rem;
+        }
+        span{
+            text-transform: uppercase;
+            color: $color-orange;
+            font-size: 1.3rem;
+        }
+        a{
+            color: $color-black;
+            text-transform: uppercase;
+            &:hover{
+                color: $color-orange;
+                  text-decoration: underline double $color-black;
+            }
+        }
+      }
+      .thirdImg{
+        width: 40rem;
+        height: 25rem;
+        background-image: url(/photos-homeDesktop/blog3.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .txt3{
+            margin-top: 25rem;
+            margin-left: 5rem;
+            p{
+                color: $color-secondary;
+                font-size: 1rem;
+            }
+            span{
+            text-transform: uppercase;
+            color: $color-orange;
+            font-size: 1.3rem;
+            }
+            a{
+            color: $color-black;
+            text-transform: uppercase;
+            &:hover{
+                color: $color-orange;
+                  text-decoration: underline double $color-black;
+            }
+            }
+        }
+      }
+  }
+
+//end section Latest News
+
+//start section Keep Connected
+
+.containTitleKeep{
+    width: 70%;
+    height: 10rem;
+    //background-color: palegreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    .titleKeep{
+        h1{
+            margin-top: 3rem;
+        }
+        p{
+            color: $color-secondary;
+
+        }
+    }
+    .email {
+        a{
+            display: inline-block;
+            margin-top: 3rem;
+            color: $color-secondary;
+            font-size: 1.5rem;
+            &:hover{
+                color: $color-orange;
+                font-size: 2rem;
+            }
+        }
+        
+    }
+    .subscribe{
+        display: inline-block;
+        margin-top: 3rem;
+        a{
+            color: $color-black;
+            text-decoration: none;
+            font-size: 1.5rem;
+            &:hover{
+                font-size: 2rem;
+                color: $color-orange;
+            }
+        }
+
+    }
+    
+}
+//end section tiltle 
+
+//start section seven image
+
+.containImg{
+    width: 100%;
+    height: 23rem;
+    background-color: powderblue;
+    display: flex;
+    margin-top: 3rem;
+    .img{
+        
+        width: 20.5rem;
+        height: 23rem;
+        background-color: rebeccapurple;
+        //border: 1px solid black ;
+    }
+    .img1{
+        background-image: url(/photos-homeDesktop/blog6_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        opacity: 0.8;
+        &:hover{
+            opacity: 1;
+        }
+
+    }
+    .img2{
+        background-image: url(/photos-homeDesktop/blog4_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .img3{
+        background-image: url(/photos-homeDesktop/bsl4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .img4{
+        background-image: url(/photos-homeDesktop/blog5_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .img5{
+        background-image: url(/photos-homeDesktop/prd_06_1_2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .img6{
+        background-image: url(/photos-homeDesktop/latest2_1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .img7{
+        background-image: url(/photos-homeDesktop/sec5img3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+    //end section 7 img
+
+    // start footer
+
+    .footer_title{
+        font-weight: 600;
+        }
+        .footer_items{
+        color:$color-secondary;
+        }
+        .grayline{
+        color:$color-secondary;
+        }
+
+
+    //START RESPONSIVE!!!!!!!
