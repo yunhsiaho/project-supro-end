@@ -1,0 +1,78 @@
+@import "variables";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    border-bottom:1px solid $colorBannerTop;
+}
+.navbar-brand{
+    position: relative;
+    left: 5%;
+    text-decoration: none;
+    color: $blackColor;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 12%;
+    .nav-link{
+        color: $blackColor;
+        text-decoration: none;
+        font-size: .9rem;
+    }
+}
+.d-flex{
+    position: relative;
+    right: 15%;
+    cursor: pointer;
+    .form-control{
+        border: none;
+        font-size: .9rem;
+    }
+    .btn{   
+    position: absolute;
+    font-size: 1rem;
+    color: $greyColor;
+    top:-4px;
+    left:100%;
+    }
+}
+
+.small-icons{
+    position: relative;
+    right: 5%;
+    i{
+        font-size: 1rem;
+    }
+    
+}
+
+/*trying for navbar*/
+
+
+
+/*add change hsia*/
+
+
+
+/*pour footer*/
+.footer_title{
+    font-weight: 600;
+}
+.footer_items{
+    color:$greyColor;
+    
+}
+.grayline{
+    color:$greyColor;
+}
+
+
+
