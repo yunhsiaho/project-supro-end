@@ -74,6 +74,7 @@
                             </button>
                         </form>
                         <form class="small-icons">
+                            
                             <button type="button" class="btn">
                                 <i class="far fa-user"></i>
                             </button>
@@ -82,10 +83,47 @@
                             </button>
                             <button type="button" class="btn">
                                 <i class="fas fa-shopping-cart"></i>
+                                
                             </button>
+                            
+                            
+                            
                         </form>
+                        <div class="boxMenu">
+                            <div class="contLignes btnnn">
+                                <div class="lignes"></div>
+                                <div class="lignes"></div>
+                                <div class="lignes"></div>
+                            </div>
+                        </div>
+                        
                     </div>
             </nav>
+            <section>
+                <div class="menuDefi">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Collection</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
             <section class="secTwo">
                 <div class="contain">
                     <div class="containLeft">
@@ -550,17 +588,48 @@
     </div>
 </section>
 
+<!-- end footeer -->
+
+
+  <!-- test menu hamburger -->
+
+  <!-- <div class="containMenu">
+
+    <div class="boxMenu">
+        <div class="contLignes btnnn">
+            <div class="lignes"></div>
+            <div class="lignes"></div>
+            <div class="lignes"></div>
+        </div>
+    </div>
+
+  </div> -->
 
 
 
 
 
+<!-- link jquery + link app.js-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="app.js" ></script>
 
 
 
+<!-- link script menu hamburger -->
+<script> 
+ 
+const allBtn =document.querySelectorAll('.contLignes');
 
+allBtn.forEach( btn => {
+    btn.addEventListener('click',()=>{
+        console.log('hello');
+        btn.classList.toggle('active');
+    })
+})
 
-
+</script>
 
 
 <!-- link  script bootstrap -->

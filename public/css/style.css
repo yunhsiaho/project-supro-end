@@ -1141,4 +1141,76 @@ h2 span {
   color: #999;
 }
 
+.boxMenu {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+}
+.boxMenu .contLignes {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+.boxMenu .contLignes .lignes {
+  width: 60%;
+  height: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: #999;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.boxMenu .contLignes .lignes:nth-child(1) {
+  top: 0rem;
+}
+.boxMenu .contLignes .lignes:nth-child(2) {
+  top: 0.5rem;
+}
+.boxMenu .contLignes .lignes:nth-child(3) {
+  top: 1rem;
+}
+
+.btnnn.active .lignes:nth-child(1) {
+  transform: translateY(10px) rotate(135deg);
+}
+.btnnn.active .lignes:nth-child(2) {
+  opacity: 0;
+}
+.btnnn.active .lignes:nth-child(3) {
+  transform: translateY(0rem) rotate(-135deg);
+}
+
+.menuDefi {
+  position: fixed;
+  right: 0;
+  padding: 0 3rem;
+  background-color: black;
+  width: 20%;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.menuDefi.isOpen {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+.menuDefi ul {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menuDefi ul li {
+  margin: 2rem 0;
+  list-style-type: none;
+}
+.menuDefi ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
