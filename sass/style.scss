@@ -1427,36 +1427,36 @@ h2 span {
 
     @media screen and (max-width: 320px){
         body{
-            width: 100vh;
-            height: auto;
+            width: 100%;
+            height: 100%;
             overflow-x: hidden;
             
         }
         header{
-            width: 100%;
+            width: 100vh;
             
             .img-bg{
-                width: 200%;
+                width: 225%;
                 height: 100%;
                 background-image: url(/photos-homeDesktop/sl3-1.jpg);
-                background-position: center;
+                
                 background-size: cover;
                 background-repeat: no-repeat;
-                img{
-                    width: 100%;
-                    display: none;
-                }
+                
+                
+                    
+                
             }
         }
 
        .my-nav{
 
            
-           height: 8rem;
+           height: 15rem;
            background-color: $color-white;
            .supro{
                color: $color-black;
-               font-size: 5rem;
+               font-size: 10rem;
             }
 
         }
@@ -1490,7 +1490,7 @@ h2 span {
                     position: relative;
                     h1{ 
                         position: absolute;
-                        left: 50rem;
+                        left: 53rem;
                         top: 12rem;
                         font-size: 7rem;
                         display: inline;
@@ -1499,9 +1499,12 @@ h2 span {
                         display: inline;
                         position: absolute;
                         top: 35rem;
-                        left: 50rem;
+                        left: 53rem;
                         font-size: 2.5rem;
                         color: $color-white;
+                        .more{
+                            margin-left: 2.5rem;
+                        }
                     }
                     
                 }
@@ -1511,37 +1514,102 @@ h2 span {
             }
         }
         .secThree{
-            width: 100vh;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             .wor{
                 
                 
-                margin-top: 28rem;
+                margin-top: 23.5rem;
                 display: flex;
                 flex-direction: column;
-               margin-left: 50%;
+                
                
                 
-                width: 325%;
-                background: no-repeat;
-                background-size: cover;
+                width: 400vw;
+                
 
                 .col1{
-                    width: 100vh;
-                    
-                    
-                }
-                .col2{
-                    width: 100vh;
+                    width: 100%;
                     
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
                     
+                    .stock1{
+                        p{
+                            margin-right: 70rem;
+                            font-size: 3rem;
+                        }
+                        h2{
+                            margin-bottom: 10rem;
+                            
+                        }
+                        a{
+                            position: relative;
+                            bottom: 10rem;
+                            left: 25rem;
+                            font-size: 2.5rem;
+
+                        }
+                    }
+                
+                    
+                    
+                }
+                .col2{
+                    width: 100%;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    .stock2{
+                        p{
+                            margin-bottom: 20rem;
+                            font-size: 3rem;
+                            margin-left: 25rem;
+                        }
+                        h2{
+                            position: relative;
+                            bottom: 15rem;
+                            left: 2rem;
+                            font-size: 5rem;
+                        }
+                        a{
+                            bottom: 11rem;
+                            left: 12rem;
+                            font-size: 2.5rem;
+                        }
+                    }
+                    
                 }
                 .col3{
                     
-                    width: 100vh;
+                    width: 100%;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    .stock3{
+                        p{
+                            margin-bottom: 12rem;
+                            position: relative;
+                            left: 70rem;
+                            font-size: 4rem;
+                        }
+                        h2{
+                            position: relative;
+                            left: 45rem;
+                            bottom: 11rem;
+                            font-size: 6rem;
+                            
+                        }
+                        a{
+                            position: relative;
+                            left: 73.5rem;
+                            font-size: 3rem;
+                            bottom: 13rem;
+                        }
+                    }
                    
 
                 }
@@ -1549,59 +1617,81 @@ h2 span {
             }
                 
         }
-                
+             //start section Top sellers
+             
+             
         .box-titre{
-            margin-top: 110rem;
-            margin-left: 13rem;
+            margin-top: 170rem;
+            
+            width: 400vw;
+            height: 20rem;
+            //background: red;
             .titre-global{
+                position: relative;
+                right: 25rem;
                 h1{
                     width: 100%;
                     font-size: 9rem;
+                    
                 }
                 p{
                     font-size: 3rem;
                 }
             }
         }
+        //------------HERE----------------------//
 
         .box-firstSec{
-            margin-left: 1rem;
+            height: 850vw;
+            width: 400vw;
+            //background-color: red;
             .bagImg{
-                height: 100%;
-                width: 100%;
+                
+                height: 300vw;
+                width: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                right: 12%;
+
                 
                 .txtBag{
                     position: relative;
                     p{
-                        top: 60rem;
-                        left: 10rem;
-                        font-size: 3rem;
+                        top: 100rem;
+                        left: 15rem;
+                        font-size: 5rem;
                         
                     }
                     span{
-                        font-size: 4rem;
+                        font-size: 6rem;
                     }
                     br{
                         display: none;
                     }
                     .priceBag{
                         display: block;
+                        &:hover{
+                            font-size: 7rem;
+                        }
                     }
                 }
             }
             .img2sec1{
-                background-size: cover;
+                margin-top: 50rem;
+                height: 300vw;
+                width: 75%;
+                background-repeat: no-repeat;
                 background-position: center;
-                margin-top: 45rem;
-                width: 100%;
-                height: 60rem;
-                left: 10rem;
+                background-size: cover;
                 position: relative;
+                right: 6rem;
                 .titleBag{
                     position: absolute;
-                       top: 57rem;
+                       top: 100rem;
                        left: 23rem;
-                       font-size: 5rem;
+                       font-size: 6rem ;
                        br{
                            display: none;
                        }
@@ -1610,13 +1700,16 @@ h2 span {
                 }
                 .priceBag{
                     position: absolute;
-                    top: 75rem;
+                    top: 110rem;
                     left: 30rem;
-                    font-size: 4rem;
+                    font-size: 5rem;
+                    &:hover{
+                        font-size: 7rem;
+                    }
                 }
                 a{
                     position: absolute;
-                    top: 85rem;
+                    top: 120rem;
                     left: 30rem;
                     font-size: 3rem;
                 }
@@ -1624,16 +1717,771 @@ h2 span {
         }     
                  //debut du avec chaussure et lunette 
            .contain2sec{
-               margin-top: 45rem;
+               width: 400vw;
+               height: 900vw;
+               //background: yellow;
+               .img1sec2{
+                   width: 75%;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   background-position: center;
+                   height: 100rem;
+                   position: relative;
+                   right: 14rem;
+                   p{
+                       
+
+                       .titleBag{
+                           margin-top: 100rem;
+                           margin-left: 20rem;
+                           font-size: 6rem;
+                           
+                           br{
+                               display: none;
+                           }
+                       }
+                       .priceBag{
+                           font-size: 6rem;
+                           margin-left: 40rem;
+                           &:hover{
+                               font-size: 7rem;
+                           }
+                       }
+                       a{
+                           font-size: 4rem;
+                           margin-left: 40rem;
+                       }
+                   }
+                  
+               }
+
+               .img2sec2{
+                   
+                   margin-top: 30rem;
+                   width: 75%;
+                   height: 400vw;
+                   position: relative;
+                   right: 9rem;
+                   p{
+                       .titleBag{
+                        margin-top: 100rem;
+                        margin-left: 15rem;
+                        font-size: 6rem;
+                       }
+                       br{
+                           display: none;
+                       }
+                       .priceBag{
+                        font-size: 6rem;
+                        margin-left: 30rem;
+                        &:hover{
+                            font-size: 7rem;
+                        }
+
+                       }
+                       a{
+                        font-size: 4rem;
+                        margin-left: 30rem;
+                       }
+                   }
+
+
+               }
+
+
+
            }         
                 
 
 
+           //section New arrival
 
-     //barre qui ferme le mediaqueries      
+
+           .box-sec3title{
+               width: 400vw;
+               height: auto;
+               //background-color: cadetblue;
+               display: block;
+               font-size: 6rem;
+               .sec3title{
+                   h1{
+                       font-size: 8rem;
+                   }
+               }
+               .choice{
+                width: 60%;
+                   a{
+                    display: inline-block;
+                    font-size: 5rem;
+                    &:hover{
+                        font-size: 6rem;
+                    }
+                    
+                   }
+               }
+               
+               
+           }
+ 
+
+           //start section img New arrival
+
+           .firstcontain3img{
+               margin-top: 10rem;
+               height: 500vw ;
+               width: 400vw;
+               //background-color: red;
+               display: flex;
+               flex-wrap: wrap;
+               
+               
+               .firstimg{
+                   width: 50rem;
+                   height: 50rem;
+                   p{
+                       margin-top: 50rem;
+                       font-size: 4rem;
+                       .title{
+                           font-size: 5rem;
+                       }
+                       .price{
+                           position: relative;
+                           top: 0;
+                           left: 4rem;
+                           &:hover{
+                               font-size: 5rem ;
+                           }
+                       }
+
+                   }
+               }
+               .secondimg{
+
+                width: 50rem;
+                height: 50rem;
+                p{
+                    margin-top: 50rem;
+                    font-size: 4rem;
+                    .title{
+                        font-size: 5rem;
+                    }
+                    .price{
+                        position: relative;
+                        top: 0;
+                        left: 4rem;
+                        &:hover{
+                            font-size: 5rem ;
+                        }
+                    }
+
+                }
+
+               }
+               .thirdimg{
+                   
+                width: 50rem;
+                height: 50rem;
+                p{
+                    margin-top: 50rem;
+                    font-size: 4rem;
+                    .title{
+                        font-size: 5rem;
+                       
+                    }
+                    .price{
+                        position: relative;
+                        top: 0;
+                        left: 4rem;
+                        &:hover{
+                            font-size: 5rem ;
+                        }
+                    }
+
+                }
+                
+                
+               }
+
+           }
+
+
+           //start 2eme section 3img
+
+           .secondecontain3img{
+            height: 500vw ;
+            width: 400vw;
+            //background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            .firstimg{
+                width: 50rem;
+                height: 50rem;
+                p{
+                    margin-top: 50rem;
+                    font-size: 4rem;
+                    .title{
+                        font-size: 5rem;
+                    }
+                    .price{
+                        position: relative;
+                        top: 0;
+                        left: 4rem;
+                        &:hover{
+                            font-size: 5rem ;
+                        }
+                    }
+
+                }
+            }
+            .secondimg{
+
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+
+            }
+            .thirdimgsec2{
+                
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                    
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+             
+             
+            }
+               
+
+           }
+
+
+           //start section SHOW MORE
+
+           .containLink{
+               width: 400vw;
+               //background-color: orange;
+               .link{
+                a{
+                    font-size: 6rem;
+                }
+               }
+           }
+
+           //start section Event
+
+           .containEvent{
+               width: 400vw;
+               height: 400vw;
+               .imgEvent{
+                   width: 100%;
+                   background-size: cover;
+                   .condiEvent{
+                       //background-color: sandybrown;
+                       width: 90%;
+                       position: relative;
+                       right: 20rem;
+                       .entete{
+                           margin-top: 10rem;
+                           .annonce{
+                               font-size: 8rem;
+                           }
+                           .title{
+                               font-size: 10rem;
+                           }
+                           .pricebarrer{
+                               font-size: 8rem;
+                           }
+                           .price{
+                               font-size: 8rem;
+                               &:hover{
+                                   font-size: 9rem;
+                               }
+                           }
+                           .btnn{
+                               position: relative;
+                                top: 7rem;
+                                left: 0;
+                               font-size: 6rem;
+                           }
+                       }
+                       .day-link{
+                           .contain4{
+                               margin-top: 20rem;
+                               width: 350vw;
+                               height: 25rem;
+                               .box{
+                                   height: 100%;
+                                   width: 100%;
+                                   .nbrs{
+                                       font-size: 7rem;
+                                   }
+                                   .wrds{
+                                       font-size: 6rem;
+                                   }
+                               }
+                           }
+                           .linkShow{
+                               margin-top: 10rem;
+                            a{
+                                
+                               font-size: 6rem;
+                            }
+                        }
+                       }
+                     
+                   }
+               }
+               
+               
+           }
+
+
+
+           //start sect title latest news
+
+           .containLatest{
+               width: 400vw;
+               height: 10vw;
+               //background-color: lightblue;
+               .titleLatest{
+                   display: flex;
+                   flex-direction: column;
+                   .title{
+                       font-size: 7rem;
+                    //background-color: red;
+                    h1{
+                        font-size: 10rem;
+                    }
+                   }
+                   .linkright{
+                       a{
+                           font-size: 5rem;
+                       }
+                   }
+               }
+               
+           }
+
+
+           //start first section img latest news 
+           
+           .contain3img{
+               width: 400vw;
+               height: 2190vw;
+               //background-color: rgb(177, 218, 164);
+               display: flex;
+               flex-direction: column;
+               .firstImg{
+                   width: 400vw;
+                   height: 400vw;
+                   .txt{
+                       margin-top: 145rem;
+                    h4{
+                        font-size: 7rem;
+                    }
+                    p{
+                        font-size: 7rem;
+                        span{
+                            font-size: 7rem;
+                        }
+                    }
+                    a{
+                        font-size: 6rem;
+                    }
+
+                   }
+               }
+
+               .twoImg{
+                width: 400vw;
+                height: 400vw;
+                .txt2{
+                    margin-top: 160rem;
+                 h4{
+                     font-size: 8rem;
+                 }
+                 p{
+                     font-size: 7rem;
+                     span{
+                         font-size: 7rem;
+                     }
+                 }
+                 a{
+                     font-size: 6rem;
+                 }
+
+                }
+            }
+            .thirdImg{
+                width: 400vw;
+                height: 400vw;
+                .txt3{
+                    margin-top: 130rem;
+                 h4{
+                     font-size: 8rem;
+                 }
+                 p{
+                     font-size: 7rem;
+                     span{
+                         font-size: 7rem;
+                     }
+                 }
+                 a{
+                     font-size: 6rem;
+                 }
+
+                }
+            }
+           }
+
+           //start sec title keep connected
+
+           .containTitleKeep{
+               margin-left: 0;
+               width: 400vw;
+               height: auto;
+               
+               display: flex;
+               flex-direction: column;
+               .titleKeep{
+                   h1{
+                       
+                       font-size: 12rem;
+                   }
+                   p{
+                       font-size: 6rem;
+                   }
+               }
+               .email{
+                   position: relative;
+                   right: 40rem;
+                   top: 5rem;
+                   
+                   a{
+                        
+                       font-size: 5rem;
+                   }
+               }
+               .subscribe{
+                   position: relative;
+                   left: 20rem;
+                   bottom: 5rem;
+                   a{
+                    
+                    font-size: 5rem;
+                   }
+               }
+           }
+           //start sec img keep connected
+
+           .containImg{
+               width: 400vw;
+               height: 100vw;
+               //background-color: seagreen;
+               .img{
+                   width: 333%;
+                   height: 100vw;
+               }
+               .img4{
+                   display: none;
+               }
+               .img5{
+                   display: none;
+               }
+               .img6{
+                display: none;
+               }
+               .img7{
+                   display: none;
+               }
+           }
+
+
+           // start footer
+
+           .footer{
+               width: 400vw;
+               //background-color: sienna;
+               .row{
+                   margin-left: 15rem;
+                   margin-right: -15rem;
+                   
+                   .col-4{
+                       p{
+                           font-size: 6rem;
+                       }
+                   }
+               }
+           }
+
+     //barre qui ferme le mediaqueries 320px    
     }
             
+    //start media queries min-321px max-425px
+
+    @media screen and (min-width: 321px) and (max-width: 425px){
+        body{
+            width: 400vw;
+            height: auto;
+            overflow-x: hidden;
+        }
+        .my-nav{
+
+           
+            height: 15rem;
+            background-color: $color-white;
+            .supro{
+                color: $color-black;
+                font-size: 10rem;
+             }
+ 
+         }
+         .secTwo{
+            .contain{
+                
+                .containLeft{
+                    width: 100vh;
+                    //background-color: red;
+                    margin-top: 55rem;
+                    
+                    position: absolute;
+                    top: 25rem;
+                    left:55rem;
+                    
+                    
+                    
+                
+                    
+                    li{
+                        display: inline;
+                        margin-left: 5rem;
+                        
+                        a{
+                            color: $color-white;
+                            font-size: 6rem;
+                            &:hover{
+                                color: $color-orange;
+                            }
+                        }
+                    }
+                }
+                .containMiddle{
+                    position: relative;
+                    h1{ 
+                       position: absolute;
+                      
+                       left: 70rem;
+                       
+                        
+                    }
+                    a{
+                        
+                        display: inline;
+                        position: absolute;
+                        top: 30rem;
+                        left: 65rem;
+                        font-size: 6rem;
+                        color: $color-white;
+                        .more{
+                            margin-left: 2.5rem;
+                        }
+                    }
+                    
+                }
+                .containRight{
+                    display: none;
+                }
+            }
+        }
+
+        //start 3img header
+
+        .secThree{
+            width: 400vw;
+            height: 100vw;
+            position: relative;
+            top: 10rem;
             
+            //background-color: red;
+            .wor{
+                
+                
+                
+                
+                margin-top: 23.5rem;
+                display: flex;
+                flex-direction: column;
+                
+               
+                
+                width: 400vw;
+                
+
+                .col1{
+                    width: 100%;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    
+                    .stock1{
+                        p{
+                            margin-right: 70rem;
+                            font-size: 3rem;
+                        }
+                        h2{
+                            margin-bottom: 10rem;
+                            
+                        }
+                        a{
+                            position: relative;
+                            bottom: 10rem;
+                            left: 25rem;
+                            font-size: 2.5rem;
+
+                        }
+                    }
+                
+                    
+                    
+                }
+                .col2{
+                    width: 100%;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    .stock2{
+                        p{
+                            margin-bottom: 20rem;
+                            font-size: 3rem;
+                            margin-left: 25rem;
+                        }
+                        h2{
+                            position: relative;
+                            bottom: 15rem;
+                            left: 2rem;
+                            font-size: 5rem;
+                        }
+                        a{
+                            bottom: 11rem;
+                            left: 12rem;
+                            font-size: 2.5rem;
+                        }
+                    }
+                    
+                }
+                .col3{
+                    
+                    width: 100%;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    .stock3{
+                        p{
+                            margin-bottom: 12rem;
+                            position: relative;
+                            left: 70rem;
+                            font-size: 4rem;
+                        }
+                        h2{
+                            position: relative;
+                            left: 45rem;
+                            bottom: 11rem;
+                            font-size: 6rem;
+                            
+                        }
+                        a{
+                            position: relative;
+                            left: 73.5rem;
+                            font-size: 3rem;
+                            bottom: 13rem;
+                        }
+                    }
+                   
+
+                }
+                
+            }
+                
+        }
+
+        
+
+        //start title top seller
+
+        .box-titre{
+            margin-top: 1700px;
+            width: 400vw;
+            //background-color: red;
+            .titre-global{
+                position: relative;
+                right: 25rem;
+                h1{
+                    width: 100%;
+                    font-size: 13rem;
+                    
+                }
+                p{
+                    font-size: 6rem;
+                }
+            }
+        }
+
+        //header
+        header{
+            .img-bg{
+                display: block;
+                width: 400vw;
+                height: 1500px;
+                img{
+                    width: 400vw;
+                    height: 1500px;
+                }
+            }
+        }
+
+        //start fisrt section img Top sellers
+
+
+
+
+
+        
+        //fermerture média min-321px max-425px
+    }
             
             
         
