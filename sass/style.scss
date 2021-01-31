@@ -1388,7 +1388,7 @@ h2 span {
 
          transition: transform .6s ease-in-out;
          -webkit-transition: transform .6s ease-in-out;
-         transform: translateX(100%);
+         transform: translateX(1000%);
          -webkit-transform: translateX(100%);
          &.isOpen{
             transform: translateX(0%);
@@ -1422,4 +1422,225 @@ h2 span {
 
      
 
-    //START RESPONSIVE!!!!!!
+    //START RESPONSIVE NAV mobile a revoir !!!!!!
+
+
+    @media screen and (max-width: 320px){
+        body{
+            width: 100vh;
+            height: auto;
+            overflow-x: hidden;
+            
+        }
+        header{
+            width: 100%;
+            
+            .img-bg{
+                width: 200%;
+                height: 100%;
+                background-image: url(/photos-homeDesktop/sl3-1.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                img{
+                    width: 100%;
+                    display: none;
+                }
+            }
+        }
+
+       .my-nav{
+
+           
+           height: 8rem;
+           background-color: $color-white;
+           .supro{
+               color: $color-black;
+               font-size: 5rem;
+            }
+
+        }
+        .secTwo{
+            .contain{
+                
+                .containLeft{
+                    width: 100vh;
+                    //background-color: red;
+                    margin-top: 100rem;
+                    margin-left: 1rem;
+                    position: absolute;
+                    top: -5;
+                    left:35rem;
+                    
+                    
+                    
+                
+                    
+                    li{
+                        display: inline;
+                        margin-left: 5rem;
+                        
+                        a{
+                            color: $color-white;
+                            font-size: 3rem;
+                        }
+                    }
+                }
+                .containMiddle{
+                    position: relative;
+                    h1{ 
+                        position: absolute;
+                        left: 50rem;
+                        top: 12rem;
+                        font-size: 7rem;
+                        display: inline;
+                    }
+                    a{
+                        display: inline;
+                        position: absolute;
+                        top: 35rem;
+                        left: 50rem;
+                        font-size: 2.5rem;
+                        color: $color-white;
+                    }
+                    
+                }
+                .containRight{
+                    display: none;
+                }
+            }
+        }
+        .secThree{
+            width: 100vh;
+            height: 100vh;
+            .wor{
+                
+                
+                margin-top: 28rem;
+                display: flex;
+                flex-direction: column;
+               margin-left: 50%;
+               
+                
+                width: 325%;
+                background: no-repeat;
+                background-size: cover;
+
+                .col1{
+                    width: 100vh;
+                    
+                    
+                }
+                .col2{
+                    width: 100vh;
+                    
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    
+                }
+                .col3{
+                    
+                    width: 100vh;
+                   
+
+                }
+                
+            }
+                
+        }
+                
+        .box-titre{
+            margin-top: 110rem;
+            margin-left: 13rem;
+            .titre-global{
+                h1{
+                    width: 100%;
+                    font-size: 9rem;
+                }
+                p{
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .box-firstSec{
+            margin-left: 1rem;
+            .bagImg{
+                height: 100%;
+                width: 100%;
+                
+                .txtBag{
+                    position: relative;
+                    p{
+                        top: 60rem;
+                        left: 10rem;
+                        font-size: 3rem;
+                        
+                    }
+                    span{
+                        font-size: 4rem;
+                    }
+                    br{
+                        display: none;
+                    }
+                    .priceBag{
+                        display: block;
+                    }
+                }
+            }
+            .img2sec1{
+                background-size: cover;
+                background-position: center;
+                margin-top: 45rem;
+                width: 100%;
+                height: 60rem;
+                left: 10rem;
+                position: relative;
+                .titleBag{
+                    position: absolute;
+                       top: 57rem;
+                       left: 23rem;
+                       font-size: 5rem;
+                       br{
+                           display: none;
+                       }
+                       
+                   
+                }
+                .priceBag{
+                    position: absolute;
+                    top: 75rem;
+                    left: 30rem;
+                    font-size: 4rem;
+                }
+                a{
+                    position: absolute;
+                    top: 85rem;
+                    left: 30rem;
+                    font-size: 3rem;
+                }
+            }
+        }     
+                 //debut du avec chaussure et lunette 
+           .contain2sec{
+               margin-top: 45rem;
+           }         
+                
+
+
+
+     //barre qui ferme le mediaqueries      
+    }
+            
+            
+            
+            
+        
+
+              
+                   
+               
+   
+        
+    

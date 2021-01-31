@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.btnnn').click(function(){
+    $('.contLignes').click(function(){
         $('.menuDefi').toggleClass('isOpen');
     });
 });

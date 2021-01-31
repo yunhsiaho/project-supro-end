@@ -1189,7 +1189,7 @@ h2 span {
   height: 100%;
   transition: transform 0.6s ease-in-out;
   -webkit-transition: transform 0.6s ease-in-out;
-  transform: translateX(100%);
+  transform: translateX(1000%);
   -webkit-transform: translateX(100%);
 }
 .menuDefi.isOpen {
@@ -1211,6 +1211,174 @@ h2 span {
   text-transform: uppercase;
   font-size: 2rem;
   text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100vh;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100%;
+  }
+  header .img-bg {
+    width: 200%;
+    height: 100%;
+    background-image: url(/photos-homeDesktop/sl3-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header .img-bg img {
+    width: 100%;
+    display: none;
+  }
+
+  .my-nav {
+    height: 8rem;
+    background-color: white;
+  }
+  .my-nav .supro {
+    color: black;
+    font-size: 5rem;
+  }
+
+  .secTwo .contain .containLeft {
+    width: 100vh;
+    margin-top: 100rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: -5;
+    left: 35rem;
+  }
+  .secTwo .contain .containLeft li {
+    display: inline;
+    margin-left: 5rem;
+  }
+  .secTwo .contain .containLeft li a {
+    color: white;
+    font-size: 3rem;
+  }
+  .secTwo .contain .containMiddle {
+    position: relative;
+  }
+  .secTwo .contain .containMiddle h1 {
+    position: absolute;
+    left: 50rem;
+    top: 12rem;
+    font-size: 7rem;
+    display: inline;
+  }
+  .secTwo .contain .containMiddle a {
+    display: inline;
+    position: absolute;
+    top: 35rem;
+    left: 50rem;
+    font-size: 2.5rem;
+    color: white;
+  }
+  .secTwo .contain .containRight {
+    display: none;
+  }
+
+  .secThree {
+    width: 100vh;
+    height: 100vh;
+  }
+  .secThree .wor {
+    margin-top: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    width: 325%;
+    background: no-repeat;
+    background-size: cover;
+  }
+  .secThree .wor .col1 {
+    width: 100vh;
+  }
+  .secThree .wor .col2 {
+    width: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col3 {
+    width: 100vh;
+  }
+
+  .box-titre {
+    margin-top: 110rem;
+    margin-left: 13rem;
+  }
+  .box-titre .titre-global h1 {
+    width: 100%;
+    font-size: 9rem;
+  }
+  .box-titre .titre-global p {
+    font-size: 3rem;
+  }
+
+  .box-firstSec {
+    margin-left: 1rem;
+  }
+  .box-firstSec .bagImg {
+    height: 100%;
+    width: 100%;
+  }
+  .box-firstSec .bagImg .txtBag {
+    position: relative;
+  }
+  .box-firstSec .bagImg .txtBag p {
+    top: 60rem;
+    left: 10rem;
+    font-size: 3rem;
+  }
+  .box-firstSec .bagImg .txtBag span {
+    font-size: 4rem;
+  }
+  .box-firstSec .bagImg .txtBag br {
+    display: none;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag {
+    display: block;
+  }
+  .box-firstSec .img2sec1 {
+    background-size: cover;
+    background-position: center;
+    margin-top: 45rem;
+    width: 100%;
+    height: 60rem;
+    left: 10rem;
+    position: relative;
+  }
+  .box-firstSec .img2sec1 .titleBag {
+    position: absolute;
+    top: 57rem;
+    left: 23rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .img2sec1 .titleBag br {
+    display: none;
+  }
+  .box-firstSec .img2sec1 .priceBag {
+    position: absolute;
+    top: 75rem;
+    left: 30rem;
+    font-size: 4rem;
+  }
+  .box-firstSec .img2sec1 a {
+    position: absolute;
+    top: 85rem;
+    left: 30rem;
+    font-size: 3rem;
+  }
+
+  .contain2sec {
+    margin-top: 45rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
