@@ -70,25 +70,28 @@
 
 .sponsor {
   opacity: 50%;
-  background-color: #ecebeb; }
+  background-color: #f1efef; }
 
 #bkgd {
   height: 500px;
   background-image: url(/img_about/video-img.jpeg);
   background-position: center; }
 
-.col-12 {
-  border: 1px solid red; }
+.manikin {
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white; }
 
-.work_hard {
-  display: flex;
-  color: white;
-  justify-content: center;
-  margin-top: 20%;
-  margin-bottom: 20%; }
+.workhard {
+  font-size: 25px; }
 
-.row {
-  border: 1px solid blue; }
+.nodrama {
+  font-size: 60px;
+  font-weight: 900; }
+
+.playbutton {
+  font-size: 80px; }
 
 .line {
   width: 50px; }

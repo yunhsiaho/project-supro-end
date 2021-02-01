@@ -80,25 +80,28 @@
 }
 .sponsor{
     opacity:50%;
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(241, 239, 239);
 }
 #bkgd{
     height:500px;
     background-image: url(/img_about/video-img.jpeg);
     background-position: center; 
-}
-.col-12{
-    border:1px solid red;
-}
-.work_hard{
-    display:flex;
+    }
+.manikin{
+    text-align: center;
+    padding-top:15%;
+    padding-bottom:15%;
     color:white;
-    justify-content: center;
-    margin-top: 20%;
-    margin-bottom: 20%;
 }
-.row{
-    border:1px solid blue;
+.workhard{
+    font-size: 25px;
+}
+.nodrama{
+    font-size:60px;
+    font-weight:900;
+}
+.playbutton{
+    font-size:80px;
 }
 .line{
     width:50px;
