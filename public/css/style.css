@@ -2260,8 +2260,11 @@ h2 span {
   .secondecontain3img .secondimg {
     width: 50rem;
     height: 50rem;
+    position: relative;
   }
   .secondecontain3img .secondimg p {
+    position: absolute;
+    right: 20rem;
     margin-top: 50rem;
     font-size: 4rem;
   }
@@ -2515,6 +2518,525 @@ h2 span {
   }
   .footer .row .col-4 p {
     font-size: 6rem;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  body {
+    width: 110vh;
+    height: 100%;
+  }
+
+  header .img-bg {
+    width: 150%;
+  }
+
+  .secTwo .contain .containLeft li a {
+    font-size: 2rem;
+  }
+  .secTwo .contain .containMiddle {
+    margin-left: 20rem;
+  }
+  .secTwo .contain .containMiddle a {
+    font-size: 2rem;
+  }
+  .secTwo .contain .containRight {
+    display: none;
+  }
+
+  .secThree {
+    width: 150%;
+    height: auto;
+    background-color: #999;
+  }
+  .secThree .wor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .secThree .wor .col1 {
+    width: 130%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .secThree .wor .col1 .stock1 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col2 {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .secThree .wor .col2 .stock2 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col3 {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .secThree .wor .col3 .stock3 {
+    margin-left: 45rem;
+  }
+  .box-titre {
+    margin-top: 100rem;
+    width: 150%;
+  }
+  .box-titre .titre-global {
+    position: relative;
+    right: 28rem;
+  }
+  .box-titre .titre-global h1 {
+    font-size: 3rem;
+  }
+  .box-titre .titre-global p {
+    font-size: 2rem;
+  }
+
+  .box-firstSec {
+    width: 150%;
+    height: auto;
+  }
+  .box-firstSec .bagImg {
+    position: relative;
+    right: 25rem;
+    top: 10rem;
+    width: 35rem;
+    height: 35rem;
+  }
+  .box-firstSec .bagImg .txtBag {
+    position: relative;
+    top: 20rem;
+    right: 5rem;
+  }
+  .box-firstSec .bagImg .txtBag p {
+    font-size: 2rem;
+  }
+  .box-firstSec .bagImg .txtBag p br {
+    display: none;
+  }
+  .box-firstSec .bagImg .txtBag span {
+    font-size: 3rem;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag {
+    font-size: 2rem;
+    display: block;
+  }
+  .box-firstSec .img2sec1 {
+    margin-left: 25rem;
+    margin-top: 40rem;
+    width: 70rem;
+    height: 70rem;
+  }
+  .box-firstSec .img2sec1 .titleBag {
+    position: relative;
+    right: 15rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .img2sec1 .priceBag {
+    position: relative;
+    right: 15rem;
+    font-size: 2rem;
+  }
+  .box-firstSec .img2sec1 a {
+    position: relative;
+    right: 15rem;
+    font-size: 2rem;
+  }
+
+  .contain2sec {
+    width: 150%;
+    height: 150rem;
+  }
+  .contain2sec .img1sec2 {
+    position: relative;
+    right: 4rem;
+    width: 70rem;
+    height: 70rem;
+  }
+  .contain2sec .img1sec2 p {
+    background-color: yellowgreen;
+    position: relative;
+    display: inline;
+  }
+  .contain2sec .img1sec2 p .titleBag {
+    position: absolute;
+    right: -45px;
+    font-size: 4rem;
+  }
+  .contain2sec .img1sec2 p .priceBag {
+    position: absolute;
+    top: 20rem;
+    font-size: 2rem;
+    right: 7rem;
+  }
+  .contain2sec .img1sec2 p a {
+    position: absolute;
+    top: 28rem;
+    font-size: 2rem;
+    right: 7rem;
+  }
+  .contain2sec .img2sec2 {
+    width: 35rem;
+    height: 35rem;
+    margin-top: 15rem;
+    position: relative;
+    right: 17rem;
+  }
+  .contain2sec .img2sec2 p {
+    margin-top: 18rem;
+  }
+  .contain2sec .img2sec2 p .titleBag {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .contain2sec .img2sec2 p .titleBag br {
+    display: none;
+  }
+  .contain2sec .img2sec2 p .priceBag {
+    font-size: 2rem;
+  }
+  .contain2sec .img2sec2 p .priceBag:hover {
+    font-size: 3rem;
+  }
+  .contain2sec .img2sec2 p a {
+    font-size: 2rem;
+  }
+
+  .box-sec3title {
+    width: 150%;
+    height: auto;
+    display: block;
+    font-size: 2rem;
+  }
+  .box-sec3title .sec3title h1 {
+    font-size: 4rem;
+  }
+  .box-sec3title .choice {
+    width: 60%;
+  }
+  .box-sec3title .choice a {
+    display: inline-block;
+    font-size: 2rem;
+  }
+  .box-sec3title .choice a:hover {
+    font-size: 3rem;
+  }
+
+  .firstcontain3img {
+    margin-top: 10rem;
+    height: 230vw;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstcontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .secondimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg p .title .t-shirt {
+    margin-left: 13rem;
+  }
+  .firstcontain3img .secondimg p .icon {
+    margin-left: 8rem;
+  }
+  .firstcontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 7rem;
+  }
+  .firstcontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .thirdimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .thirdimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg p .title .t-shirt {
+    margin-left: 13rem;
+  }
+  .firstcontain3img .thirdimg p .icon {
+    margin-left: 10rem;
+  }
+  .firstcontain3img .thirdimg p .price {
+    position: relative;
+    top: 0;
+    left: 8rem;
+  }
+  .firstcontain3img .thirdimg p .price:hover {
+    font-size: 5rem;
+  }
+
+  .secondecontain3img {
+    height: 230vw;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secondecontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+  }
+  .secondecontain3img .secondimg p {
+    position: absolute;
+    left: 7rem;
+    margin-top: 50rem;
+    font-size: 3rem;
+  }
+  .secondecontain3img .secondimg p .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .secondecontain3img .secondimg p .title span {
+    position: relative;
+    left: 1.5rem;
+  }
+  .secondecontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 3rem;
+  }
+  .secondecontain3img .secondimg p .price:hover {
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 {
+    margin-top: 5rem;
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .thirdimgsec2 p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title .pousse {
+    margin-left: 12rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .icon {
+    margin-left: 6rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price {
+    position: relative;
+    top: 0;
+    left: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price:hover {
+    font-size: 5rem;
+  }
+
+  .containLink {
+    width: 150%;
+    height: auto;
+  }
+  .containLink .link a {
+    font-size: 3rem;
+  }
+
+  .containEvent {
+    width: 150%;
+    height: auto;
+  }
+  .containEvent .imgEvent {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .containEvent .imgEvent .condiEvent {
+    width: 90%;
+    position: relative;
+    right: 20rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .annonce {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .title {
+    font-size: 4rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .pricebarrer {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price {
+    font-size: 3rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price:hover {
+    font-size: 4rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .btnn {
+    position: relative;
+    top: 7rem;
+    left: 0;
+    font-size: 3rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 {
+    margin-top: 12rem;
+    width: 120%;
+    height: 13rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box {
+    height: 75%;
+    width: 75%;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .nbrs {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow {
+    margin-top: 4.5rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow a {
+    font-size: 2.5rem;
+  }
+
+  .containLatest {
+    width: 150%;
+    height: auto;
+  }
+  .containLatest .titleLatest {
+    display: flex;
+    flex-direction: row;
+  }
+  .containLatest .titleLatest .title {
+    font-size: 3rem;
+  }
+  .containLatest .titleLatest .title p {
+    font-size: 2rem;
+  }
+  .containLatest .titleLatest .title p:hover {
+    font-size: 3rem;
+  }
+  .containLatest .titleLatest .title h1 {
+    font-size: 4rem;
+  }
+  .containLatest .titleLatest .linkright a {
+    font-size: 2rem;
+  }
+
+  .contain3img {
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vw;
+  }
+  .contain3img .firstImg {
+    width: 100vw;
+    height: 100vw;
+  }
+  .contain3img .firstImg .txt {
+    margin-top: 70rem;
+  }
+  .contain3img .firstImg .txt h4 {
+    font-size: 4rem;
+  }
+  .contain3img .firstImg .txt p {
+    font-size: 2rem;
+  }
+  .contain3img .firstImg .txt p span {
+    font-size: 3rem;
+  }
+  .contain3img .firstImg .txt a {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg {
+    width: 60vw;
+    height: 45vw;
+  }
+  .contain3img .twoImg .txt2 {
+    margin-top: 35rem;
+  }
+  .contain3img .twoImg .txt2 h4 {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg .txt2 p {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg .txt2 p span {
+    font-size: 3rem;
+  }
+  .contain3img .twoImg .txt2 a {
+    font-size: 1.5rem;
+  }
+  .contain3img .thirdImg {
+    width: 60vw;
+    height: 45vw;
+  }
+  .contain3img .thirdImg .txt3 {
+    margin-top: 35rem;
+  }
+  .contain3img .thirdImg .txt3 h4 {
+    font-size: 2rem;
+  }
+  .contain3img .thirdImg .txt3 p {
+    font-size: 2rem;
+  }
+  .contain3img .thirdImg .txt3 p span {
+    font-size: 3rem;
+  }
+  .contain3img .thirdImg .txt3 a {
+    font-size: 1.5rem;
   }
 }
 
