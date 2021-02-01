@@ -3094,7 +3094,7 @@ h2 span {
             }
         }
 
-
+        
         //start img keep connected
 
         .containImg{
@@ -3119,6 +3119,20 @@ h2 span {
             }
         }
 
+        .footer{
+            width: 400vw;
+            //background-color: sienna;
+            .row{
+                margin-left: 15rem;
+                margin-right: -15rem;
+                
+                .col-4{
+                    p{
+                        font-size: 6rem;
+                    }
+                }
+            }
+        }
 
         //start footer
 
@@ -3840,8 +3854,81 @@ h2 span {
              }
          }
         }
+        //start sec title Keep connected
 
+        .containTitleKeep{
+            margin-left: 0;
+            width: 150%;
+            height: 10rem;
+            margin-top: 30rem;
+            display: flex;
+            flex-direction: row;
+            //background-color: red;
+            .titleKeep{
+                h1{
+                    
+                    font-size: 4rem;
+                }
+                p{
+                    font-size: 3rem;
+                }
+            }
+            .email{
+                
+                
+                a{
+                     
+                    font-size: 2rem;
+                    &:hover{
+                        font-size: 3rem;
+                    }
+                }
+            }
+            .subscribe{
+                
+                a{
+                 
+                 font-size: 2rem;
+                 &:hover{
+                    font-size: 3rem;
+                }
+                }
+            }
+        }
+        //start 5img keep connected
 
+        .containImg{
+            width: 150%;
+            height: 45vw;
+            //background-color: seagreen;
+            .img{
+                width: 20%; 
+                height: 45vw;
+            }
+            .img6{
+             display: none;
+            }
+            .img7{
+                display: none;
+            }
+        }
+
+        //start footer
+
+        .footer{
+            width: 150%;
+            //background-color: sienna;
+            .row{
+                margin-left: 9rem;
+                
+                
+                .col-4{
+                    p{
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
 
         //fermeture media min-426 & max-768px
     }

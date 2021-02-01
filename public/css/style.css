@@ -2519,6 +2519,17 @@ h2 span {
   .footer .row .col-4 p {
     font-size: 6rem;
   }
+
+  .footer {
+    width: 400vw;
+  }
+  .footer .row {
+    margin-left: 15rem;
+    margin-right: -15rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 6rem;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   body {
@@ -3037,6 +3048,58 @@ h2 span {
   }
   .contain3img .thirdImg .txt3 a {
     font-size: 1.5rem;
+  }
+
+  .containTitleKeep {
+    margin-left: 0;
+    width: 150%;
+    height: 10rem;
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .containTitleKeep .titleKeep h1 {
+    font-size: 4rem;
+  }
+  .containTitleKeep .titleKeep p {
+    font-size: 3rem;
+  }
+  .containTitleKeep .email a {
+    font-size: 2rem;
+  }
+  .containTitleKeep .email a:hover {
+    font-size: 3rem;
+  }
+  .containTitleKeep .subscribe a {
+    font-size: 2rem;
+  }
+  .containTitleKeep .subscribe a:hover {
+    font-size: 3rem;
+  }
+
+  .containImg {
+    width: 150%;
+    height: 45vw;
+  }
+  .containImg .img {
+    width: 20%;
+    height: 45vw;
+  }
+  .containImg .img6 {
+    display: none;
+  }
+  .containImg .img7 {
+    display: none;
+  }
+
+  .footer {
+    width: 150%;
+  }
+  .footer .row {
+    margin-left: 9rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 3rem;
   }
 }
 
