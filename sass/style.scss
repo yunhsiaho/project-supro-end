@@ -1633,13 +1633,14 @@ h2 span {
                     width: 100%;
                     font-size: 9rem;
                     
+                    
                 }
                 p{
                     font-size: 3rem;
                 }
             }
         }
-        //------------HERE----------------------//
+        
 
         .box-firstSec{
             height: 850vw;
@@ -1715,6 +1716,10 @@ h2 span {
                 }
             }
         }     
+             
+
+
+
                  //debut du avec chaussure et lunette 
            .contain2sec{
                width: 400vw;
@@ -1793,6 +1798,9 @@ h2 span {
            }         
                 
 
+           
+
+
 
            //section New arrival
 
@@ -1823,6 +1831,10 @@ h2 span {
                
            }
  
+
+
+          
+
 
            //start section img New arrival
 
@@ -1903,6 +1915,8 @@ h2 span {
                }
 
            }
+
+           
 
 
            //start 2eme section 3img
@@ -1985,6 +1999,8 @@ h2 span {
 
            }
 
+           
+
 
            //start section SHOW MORE
 
@@ -1997,6 +2013,8 @@ h2 span {
                 }
                }
            }
+
+           
 
            //start section Event
 
@@ -2066,6 +2084,7 @@ h2 span {
                
            }
 
+           
 
 
            //start sect title latest news
@@ -2092,6 +2111,8 @@ h2 span {
                }
                
            }
+
+           
 
 
            //start first section img latest news 
@@ -2164,6 +2185,8 @@ h2 span {
                 }
             }
            }
+           
+
 
            //start sec title keep connected
 
@@ -2203,6 +2226,8 @@ h2 span {
                    }
                }
            }
+
+           
            //start sec img keep connected
 
            .containImg{
@@ -2227,7 +2252,7 @@ h2 span {
                }
            }
 
-
+           
            // start footer
 
            .footer{
@@ -2475,11 +2500,623 @@ h2 span {
 
         //start fisrt section img Top sellers
 
+        .box-firstSec{
+            height: 850vw;
+            width: 400vw;
+            //background-color: red;
+            .bagImg{
+                
+                height: 300vw;
+                width: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                right: 12%;
 
-
-
-
+                
+                .txtBag{
+                    position: relative;
+                    p{
+                        top: 130rem;
+                        left: 15rem;
+                        font-size: 5rem;
+                        
+                    }
+                    span{
+                        font-size: 6rem;
+                    }
+                    br{
+                        display: none;
+                    }
+                    .priceBag{
+                        display: block;
+                        &:hover{
+                            font-size: 7rem;
+                        }
+                    }
+                }
+            }
+            .img2sec1{
+                margin-top: 50rem;
+                height: 300vw;
+                width: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                right: 6rem;
+                .titleBag{
+                    position: absolute;
+                       top: 130rem;
+                       left: 23rem;
+                       font-size: 6rem ;
+                       br{
+                           display: none;
+                       }
+                       
+                   
+                }
+                .priceBag{
+                    position: absolute;
+                    top: 140rem;
+                    left: 30rem;
+                    font-size: 5rem;
+                    &:hover{
+                        font-size: 7rem;
+                    }
+                }
+                a{
+                    position: absolute;
+                    top: 150rem;
+                    left: 30rem;
+                    font-size: 3rem;
+                }
+            }
+        }     
         
+
+        //start sec 2 Chaussure et lunette
+
+        .contain2sec{
+            width: 400vw;
+            height: 790vw;
+            
+            //background: yellow;
+            .img1sec2{
+                width: 75%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100rem;
+                position: relative;
+                right: 14rem;
+                p{
+                    
+
+                    .titleBag{
+                        margin-top: 100rem;
+                        margin-left: 20rem;
+                        font-size: 6rem;
+                        
+                        br{
+                            display: none;
+                        }
+                    }
+                    .priceBag{
+                        font-size: 6rem;
+                        margin-left: 40rem;
+                        &:hover{
+                            font-size: 7rem;
+                        }
+                    }
+                    a{
+                        font-size: 4rem;
+                        margin-left: 40rem;
+                    }
+                }
+               
+            }
+
+            .img2sec2{
+                
+                margin-top: 30rem;
+                width: 75%;
+                height: 400vw;
+                position: relative;
+                right: 9rem;
+                
+                p{
+                    .titleBag{
+                     margin-top: 130rem;
+                     margin-left: 20rem;
+                     font-size: 6rem;
+                     
+                    }
+                    br{
+                        display: none;
+                    }
+                    .priceBag{
+                     font-size: 6rem;
+                     margin-left: 40rem;
+                     &:hover{
+                         font-size: 7rem;
+                     }
+
+                    }
+                    a{
+                     font-size: 4rem;
+                     margin-left: 40rem;
+                    }
+                }
+
+
+            }
+
+
+
+        } 
+        
+
+        //start section title New arrivals 
+
+
+        .box-sec3title{
+            width: 400vw;
+            height: auto;
+            //background-color: cadetblue;
+            display: block;
+            font-size: 6rem;
+            
+            .sec3title{
+                h1{
+                    font-size: 8rem;
+                }
+            }
+            .choice{
+             width: 60%;
+                a{
+                 display: inline-block;
+                 font-size: 5rem;
+                 &:hover{
+                     font-size: 6rem;
+                 }
+                 
+                }
+            }
+            
+            
+        }
+        //start section 3img new arrivals
+
+        .firstcontain3img{
+            margin-top: 10rem;
+            height: 230vw ;
+            width: 400vw;
+            
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            .firstimg{
+                width: 50rem;
+                height: 50rem;
+                p{
+                    margin-top: 50rem;
+                    font-size: 4rem;
+                    .title{
+                        font-size: 5rem;
+                    }
+                    .price{
+                        position: relative;
+                        top: 0;
+                        left: 4rem;
+                        &:hover{
+                            font-size: 5rem ;
+                        }
+                    }
+
+                }
+            }
+            .secondimg{
+
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+
+            }
+            .thirdimg{
+                
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                    
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+             
+             
+            }
+
+        }
+
+        //start seconde sec 3 img News arrivals
+
+        .secondecontain3img{
+            height: 230vw ;
+            width: 400vw;
+            
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            .firstimg{
+                width: 50rem;
+                height: 50rem;
+                p{
+                    margin-top: 50rem;
+                    font-size: 4rem;
+                    .title{
+                        font-size: 5rem;
+                    }
+                    .price{
+                        position: relative;
+                        top: 0;
+                        left: 4rem;
+                        &:hover{
+                            font-size: 5rem ;
+                        }
+                    }
+
+                }
+            }
+            .secondimg{
+
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+
+            }
+            .thirdimgsec2{
+                
+             width: 50rem;
+             height: 50rem;
+             p{
+                 margin-top: 50rem;
+                 font-size: 4rem;
+                 .title{
+                     font-size: 5rem;
+                    
+                 }
+                 .price{
+                     position: relative;
+                     top: 0;
+                     left: 4rem;
+                     &:hover{
+                         font-size: 5rem ;
+                     }
+                 }
+
+             }
+             
+             
+            }
+               
+
+           }
+
+           //start sect shop now
+
+           .containLink{
+            width: 400vw;
+            height: auto;
+            //background-color: orange;
+            .link{
+             a{
+                 font-size: 6rem;
+             }
+            }
+        }
+
+        //start sec Event
+
+        .containEvent{
+            width: 400vw;
+            height: 400vw;
+            .imgEvent{
+                width: 100%;
+                background-size: cover;
+                .condiEvent{
+                    //background-color: sandybrown;
+                    width: 90%;
+                    position: relative;
+                    right: 20rem;
+                    .entete{
+                        margin-top: 10rem;
+                        .annonce{
+                            font-size: 8rem;
+                        }
+                        .title{
+                            font-size: 10rem;
+                        }
+                        .pricebarrer{
+                            font-size: 8rem;
+                        }
+                        .price{
+                            font-size: 8rem;
+                            &:hover{
+                                font-size: 9rem;
+                            }
+                        }
+                        .btnn{
+                            position: relative;
+                             top: 7rem;
+                             left: 0;
+                            font-size: 6rem;
+                        }
+                    }
+                    .day-link{
+                        .contain4{
+                            margin-top: 20rem;
+                            width: 350vw;
+                            height: 25rem;
+                            .box{
+                                height: 100%;
+                                width: 100%;
+                                .nbrs{
+                                    font-size: 7rem;
+                                }
+                                .wrds{
+                                    font-size: 6rem;
+                                }
+                            }
+                        }
+                        .linkShow{
+                            margin-top: 10rem;
+                         a{
+                             
+                            font-size: 6rem;
+                         }
+                     }
+                    }
+                  
+                }
+            }
+            
+            
+        }
+        //start sec latest
+
+        .containLatest{
+            width: 400vw;
+            height: auto;
+            //background-color: lightblue;
+            .titleLatest{
+                display: flex;
+                flex-direction: column;
+                .title{
+                    font-size: 7rem;
+                    p{
+                        &:hover{
+                            font-size: 8rem;
+                        }
+                    }
+                 //background-color: red;
+                 h1{
+                     font-size: 10rem;
+                 }
+                }
+                .linkright{
+                    a{
+                        font-size: 5rem;
+                    }
+                }
+            }
+            
+        }
+
+        //start 3 img latest new
+
+        .contain3img{
+            width: 400vw;
+            height: 1800vw;
+            
+            //background-color: rgb(177, 218, 164);
+            display: flex;
+            flex-direction: column;
+            .firstImg{
+                width: 400vw;
+                height: 400vw;
+                .txt{
+                    margin-top: 160rem;
+                 h4{
+                     font-size: 7rem;
+                 }
+                 p{
+                     font-size: 7rem;
+                     span{
+                         font-size: 7rem;
+                     }
+                 }
+                 a{
+                     font-size: 6rem;
+                 }
+
+                }
+            }
+
+            .twoImg{
+             width: 400vw;
+             height: 400vw;
+             .txt2{
+                 margin-top: 160rem;
+              h4{
+                  font-size: 8rem;
+              }
+              p{
+                  font-size: 7rem;
+                  span{
+                      font-size: 7rem;
+                  }
+              }
+              a{
+                  font-size: 6rem;
+              }
+
+             }
+         }
+         .thirdImg{
+             width: 400vw;
+             height: 400vw;
+             .txt3{
+                 margin-top: 160rem;
+              h4{
+                  font-size: 8rem;
+              }
+              p{
+                  font-size: 7rem;
+                  span{
+                      font-size: 7rem;
+                  }
+              }
+              a{
+                  font-size: 6rem;
+              }
+
+             }
+         }
+        }
+
+        //start sec Keep connected
+
+        .containTitleKeep{
+            margin-left: 0;
+            width: 400vw;
+            height: auto;
+            margin-top: 30rem;
+            display: flex;
+            flex-direction: column;
+            .titleKeep{
+                h1{
+                    
+                    font-size: 12rem;
+                }
+                p{
+                    font-size: 6rem;
+                }
+            }
+            .email{
+                position: relative;
+                right: 40rem;
+                top: 5rem;
+                
+                a{
+                     
+                    font-size: 5rem;
+                    &:hover{
+                        font-size: 6rem;
+                    }
+                }
+            }
+            .subscribe{
+                position: relative;
+                left: 20rem;
+                bottom: 5rem;
+                a{
+                 
+                 font-size: 5rem;
+                 &:hover{
+                    font-size: 6rem;
+                }
+                }
+            }
+        }
+
+
+        //start img keep connected
+
+        .containImg{
+            width: 400vw;
+            height: 100vw;
+            //background-color: seagreen;
+            .img{
+                width: 333%;
+                height: 100vw;
+            }
+            .img4{
+                display: none;
+            }
+            .img5{
+                display: none;
+            }
+            .img6{
+             display: none;
+            }
+            .img7{
+                display: none;
+            }
+        }
+
+
+        //start footer
+
+        .footer{
+            width: 400vw;
+            //background-color: sienna;
+            .row{
+                margin-left: 15rem;
+                margin-right: -15rem;
+                
+                .col-4{
+                    p{
+                        font-size: 6rem;
+                    }
+                }
+            }
+        }
+
         //fermerture média min-321px max-425px
     }
             
