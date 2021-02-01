@@ -6,6 +6,7 @@
         grid-row: 3;
         grid-column: 3;
         padding-left:1em;
+        font-size: .8rem;
     }
     .ani-01:hover{
         cursor: progress;
@@ -40,67 +41,78 @@
         grid-row: 3;
         grid-column: 4;
         padding-left:1em;
+        font-size: .8rem;
     }
     .card-03{
         display: grid;
         grid-row: 3;
         grid-column: 5;
         padding-left:1em;
+        font-size: .8rem;
     }
     .card-04{
         display: grid;
         grid-row: 4;
         grid-column: 3;
         padding-left:1em;
+        font-size: .8rem;
     }
     
     .card-05{
         display: grid;
         grid-row: 4;
         grid-column: 4;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
     .card-06{
         display: grid;
         grid-row: 4;
         grid-column: 5;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
     .card-07{
         display: grid;
         grid-row: 5;
         grid-column: 3;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
     .card-08{
         display: grid;
         grid-row: 5;
         grid-column: 4;
         padding-left:1em; 
+        font-size: .8rem;
     }
     .card-09{
         display: grid;
         grid-row: 5;
         grid-column: 5;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
     .card-10{
         display: grid;
         grid-row: 6;
         grid-column: 3;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
     .card-11{
         display: grid;
         grid-row: 6;
         grid-column: 4;
         padding-left:1em; 
+        font-size: .8rem;
     }
     .card-12{
         display: grid;
         grid-row: 6;
         grid-column: 5;
-        padding-left:1em; 
+        padding-left:1em;
+        font-size: .8rem; 
     }
 
     .discover-grid{
@@ -108,15 +120,11 @@
         grid-row:7;
         grid-column: 4;
     }
-    .discover-title{
-       position: relative;
-       bottom:50px; 
-       left:55px
-    }
+
     .discover-text{
         color:$greyColor;
         font-weight: bold;
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .discover-text:hover{
         color:black;

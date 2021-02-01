@@ -1,59 +1,71 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 .navbar {
   height: 10%;
   width: 100%;
-  border-bottom: 1px solid #f2ede9; }
+  border-bottom: 1px solid #f2ede9;
+}
 
 .navbar-brand {
   position: relative;
   left: 5%;
   text-decoration: none;
   color: #222;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .navbar-nav {
   position: relative;
-  left: 12%; }
+  left: 12%;
+}
 
 .navbar-nav .nav-link {
   color: #222;
   text-decoration: none;
-  font-size: .9rem; }
+  font-size: .9rem;
+}
 
 .d-flex {
   position: absolute;
   right: 340px;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .d-flex .form-control {
   border: none;
-  font-size: .9rem; }
+  font-size: .9rem;
+}
 
 .d-flex .btn {
   position: absolute;
   font-size: 1rem;
   color: #999;
   top: -4px;
-  left: 100%; }
+  left: 100%;
+}
 
 .small-icons {
   position: absolute;
-  right: 100px; }
+  right: 100px;
+}
 
 .small-icons i {
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 .container1 {
-  margin-top: 130px; }
+  margin-top: 130px;
+}
 
 .ant-01 {
   background-image: url("/img_contact/contact-bg.jpeg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 .container2 {
   height: 38vh;
@@ -62,14 +74,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 .container2 h2 {
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+}
 
 .container2 p {
   height: 150px;
@@ -78,107 +92,126 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-left: -10rem;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+}
 
 .shop-home {
   color: #999;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+}
 
 .fa-circle {
   font-size: .4rem;
   word-spacing: 30px;
-  margin-right: .5rem; }
+  margin-right: .5rem;
+}
 
 .fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-linkedin-in, .fa-instagram {
   font-size: 1.5rem;
   color: #494949;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .fab:hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-transform: scale(2, 2);
-  transform: scale(2, 2); }
+          transform: scale(2, 2);
+}
 
 .title-office {
   font-size: 1.7rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .address-office {
   font-size: 1.2rem;
-  color: #999; }
+  color: #999;
+}
 
 .touch-title {
   font-size: 1.7rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .phone {
-  font-size: .9rem; }
+  font-size: .9rem;
+}
 
 .num {
   font-size: 1.1rem;
   color: #999;
-  line-height: 1px; }
+  line-height: 1px;
+}
 
 .email {
   margin-top: 40px;
   line-height: 1px;
-  font-size: .9rem; }
+  font-size: .9rem;
+}
 
 .email-address {
-  color: #999; }
+  color: #999;
+}
 
 .store-add {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .location {
   font-size: .9rem;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .lolaire {
   color: #999;
   font-size: .8rem;
   margin-bottom: 40px;
   line-height: 20px;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .store-num {
   font-size: .9rem;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .num-1 {
   color: #999;
   font-size: .9rem;
   margin-bottom: 40px;
   line-height: 10px;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .store-email {
   font-size: .9rem;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 .email-1 {
   color: #999;
   font-size: .9rem;
   margin-bottom: 40px;
   line-height: 10px;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+}
 
 /*pour footer*/
 .footer_title {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .footer_items {
-  color: #999; }
+  color: #999;
+}
 
 .grayline {
-  color: #999; }
-
-/*# sourceMappingURL=style.css.map */
-
+  color: #999;
+}
 /*# sourceMappingURL=style.css.map */

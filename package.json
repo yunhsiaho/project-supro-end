@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
-    "scss": "node-sass --watch src/scss --output src/css --source-map true"
-
+    "scss": "node-sass --watch src_contact/scss --output src_contact/css --source-map true"
   },
   "repository": {
     "type": "git",
@@ -17,10 +15,9 @@
   "bugs": {
     "url": "https://github.com/Tselawi/project-supro/issues"
   },
-
   "homepage": "https://github.com/Tselawi/project-supro#readme",
   "dependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {}
 }
-
