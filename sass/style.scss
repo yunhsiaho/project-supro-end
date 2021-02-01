@@ -1422,7 +1422,7 @@ h2 span {
 
      
 
-    //START RESPONSIVE NAV mobile a revoir !!!!!!
+    //START RESPONSIVE  mobile  !!!!!!
 
 
     @media screen and (max-width: 320px){
@@ -3933,7 +3933,41 @@ h2 span {
         //fermeture media min-426 & max-768px
     }
               
-                   
+         //start media desktop
+         
+         @media screen and (min-width: 769px) and (max-width: 1024px){
+             body{
+                 width: 150%;
+             }
+
+             //start header
+             
+             header{
+                .img-bg{
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+            }
+            
+            .containImg{
+                width: 100%;
+                height: 25vw;
+                //background-color: seagreen;
+                .img{
+                    width: 14.28%; 
+                    height: 25vw;
+                }
+
+
+            }
+            //fin media queries desktop
+         }
+        
                
    
         

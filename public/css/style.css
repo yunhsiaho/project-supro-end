@@ -3102,5 +3102,28 @@ h2 span {
     font-size: 3rem;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    width: 150%;
+  }
+
+  header .img-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  header .img-bg img {
+    width: 100%;
+  }
+
+  .containImg {
+    width: 100%;
+    height: 25vw;
+  }
+  .containImg .img {
+    width: 14.28%;
+    height: 25vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
