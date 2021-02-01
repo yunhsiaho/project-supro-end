@@ -51,11 +51,47 @@
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.col-lg-3 {
-  border: 1px solid black; }
+.pinktext {
+  color: #f68773; }
 
-.col-lg-6 {
+.tags {
+  font-size: 30px; }
+
+.bold_title {
+  font-weight: 800;
+  font-size: 17px; }
+
+.graytext {
+  color: #999; }
+
+.member {
+  font-weight: 500;
+  font-size: 20px; }
+
+.sponsor {
+  opacity: 50%;
+  background-color: #ecebeb; }
+
+#bkgd {
+  height: 500px;
+  background-image: url(/img_about/video-img.jpeg);
+  background-position: center; }
+
+.col-12 {
   border: 1px solid red; }
+
+.work_hard {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 20%; }
+
+.row {
+  border: 1px solid blue; }
+
+.line {
+  width: 50px; }
 
 /*pour footer*/
 .footer_title {
