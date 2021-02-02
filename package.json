@@ -7,7 +7,7 @@
 
     "sass": "sass --watch ./sass/style.scss:./public/css/style.css",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
-
+,
     "scss": "node-sass --watch src_product/scss --output src_product/css --source-map true"
 
   },
