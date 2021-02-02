@@ -8,7 +8,7 @@
 
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
 ,
-    "scss": "node-sass --watch src_product/scss --output src_product/css --source-map true"
+    "scss": "node-sass --watch src_contact/scss --output src_contact/css --source-map true"
 
 
   },
