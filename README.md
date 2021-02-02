@@ -31,6 +31,7 @@ Our mission is to build the front-end integration. John Lafrite provided the des
  
 # Here comes a screenshot
 
+![alt text](https://github.com/Tselawi/project-supro/blob/development/screenshot.png "on est fort!")
 
 # Who make this master piece?
 * [WeapWeap](https://github.com/ChardonFrancois)
