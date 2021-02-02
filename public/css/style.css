@@ -3217,4 +3217,43 @@ h2 span {
   color: black;
 }
 
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  header .img-bg img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .secTwo .contain .containLeft ul li {
+    position: relative;
+  }
+  .secTwo .contain .containLeft ul li a {
+    margin-right: 20px;
+    font-size: 4rem;
+    color: #f68773;
+    position: absolute;
+    right: 4px;
+  }
+  .secTwo .contain .containMiddle {
+    position: relative;
+  }
+  .secTwo .contain .containMiddle h1 {
+    position: absolute;
+    left: 595px;
+    top: 34px;
+    color: #f68773;
+  }
+  .secTwo .contain .containMiddle a {
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    font-size: 4rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
