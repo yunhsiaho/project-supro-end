@@ -1,7 +1,8 @@
 # Project-supro FINI
-Project-supro us a group project made by WeapWeap, Tariq Selawi and Hsia. It's a challenge  asigned by BECODE LIEGE code training center. We had been working on this from 25/1/2021-2/2/2021 to learn about the teamworking pattern and consolidate our knowledges in the code we've learned.
+Project-supro is a group project made by WeapWeap, Tariq Selawi and Hsia. It's a challenge asigned by BECODE LIEGE code training center. We had been working on this from 25/1/2021-2/2/2021 to learn about the teamworking pattern and consolidate our knowledges in the codes we've learned.
 
 # The mission
+Imagine:
 We are a team of 3 (or 4) young freelancers developers who wish to have our first serious mission. For that, we create accounts on malt website and quickly we get in touch with John Lafrite, a web designer.
 
 John works for a client called Supro. . Supro. is a company active in the fashion market. They would like to improve their presence on the web.
