@@ -214,4 +214,94 @@
 .grayline {
   color: #999;
 }
+
+.boxMenu {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+}
+
+.boxMenu .contLignes {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.boxMenu .contLignes .lignes {
+  width: 60%;
+  height: .2rem;
+  border-radius: .5rem;
+  background-color: black;
+  position: absolute;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.boxMenu .contLignes .lignes:nth-child(1) {
+  top: 0rem;
+}
+
+.boxMenu .contLignes .lignes:nth-child(2) {
+  top: 0.5rem;
+}
+
+.boxMenu .contLignes .lignes:nth-child(3) {
+  top: 1rem;
+}
+
+.btnnn.active .lignes:nth-child(1) {
+  -webkit-transform: translateY(15px) rotate(135deg);
+          transform: translateY(15px) rotate(135deg);
+}
+
+.btnnn.active .lignes:nth-child(2) {
+  opacity: 0;
+}
+
+.btnnn.active .lignes:nth-child(3) {
+  -webkit-transform: translateY(0rem) rotate(-135deg);
+          transform: translateY(0rem) rotate(-135deg);
+}
+
+.menuDefi {
+  position: fixed;
+  right: 0;
+  padding: 0 3rem;
+  background-color: black;
+  width: 20%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+  -webkit-transition: transform .6s ease-in-out;
+  transform: translateX(1000%);
+  -webkit-transform: translateX(100%);
+}
+
+.menuDefi.isOpen {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+.menuDefi ul {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.menuDefi ul li {
+  margin: 2rem 0;
+  list-style-type: none;
+}
+
+.menuDefi ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */

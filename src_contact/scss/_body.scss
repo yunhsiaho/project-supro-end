@@ -180,5 +180,95 @@ color: $greyColor;
     color:$greyColor;
 }
 
+//menu hamburger
+
+.boxMenu{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    .contLignes{
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        position: relative;
+
+        .lignes{
+            width: 60%;
+            height: .2rem;
+            border-radius: .5rem;
+            background-color: $color-black;
+            position: absolute;
+            transition: all .5s ease-in-out;
+            &:nth-child(1){
+                top: 0rem;
+            }
+            &:nth-child(2){
+            top: 0.5rem;
+        }
+        &:nth-child(3){
+            top: 1rem;
+        }
+        }
+    }
+}
+
+//debut animation bouton
+.btnnn.active {
+.lignes{
+&:nth-child(1){
+
+    transform: translateY(15px)  rotate(135deg);
+
+}
+&:nth-child(2){
 
 
+    opacity: 0;
+}
+&:nth-child(3){
+
+
+    transform: translateY(0rem) rotate(-135deg);
+
+
+}
+}
+}
+
+.menuDefi{
+    position: fixed;
+    right: 0;
+    padding: 0 3rem;
+    background-color: $color-black;
+    width: 20%;
+    height: 100%;
+    transition: transform .6s ease-in-out;
+    -webkit-transition: transform .6s ease-in-out;
+    transform: translateX(1000%);
+    -webkit-transform: translateX(100%);
+    &.isOpen{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    }
+
+
+    ul{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
+    li{
+        margin: 2rem 0;
+        list-style-type: none;
+
+        a{
+            color: $color-white;
+            text-transform: uppercase;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+    }
+    }
+}
