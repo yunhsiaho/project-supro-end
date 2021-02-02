@@ -1,28 +1,41 @@
-# project-supro
+# Project-supro FINI
+Project-supro us a group project made by WeapWeap, Tariq Selawi and Hsia. It's a challenge  asigned by BECODE LIEGE code training center. We had been working on this from 25/1/2021-2/2/2021 to learn about the teamworking pattern and consolidate our knowledges in the code we've learned.
+
+# The mission
+We are a team of 3 (or 4) young freelancers developers who wish to have our first serious mission. For that, we create accounts on malt website and quickly we get in touch with John Lafrite, a web designer.
+
+John works for a client called Supro. . Supro. is a company active in the fashion market. They would like to improve their presence on the web.
+
+John Lafrite designed for them a website that meets their desires. But for the next step, he needs a team of developer to code the front-end and he would like to entrust this project to us !
+
+The website is essentially an e-shop which presents the products company.
+
+It composes by differents pages :
+
+  * Homepage
+  * Shop page
+  * Single product page
+  * About pae
+  * Contact page
+
+Our mission is to build the front-end integration. John Lafrite provided the design but for the hover effects or fancy animations, we have to use our creativity of front-end developer.
+
+# Check our project(link)
 
 
-<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                          <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Collection</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                              <li><a class="dropdown-item" href="#">Blog</a></li>
-                              <li><a class="dropdown-item" href="#">Contact</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                      </div>
+# The languages used
+ * HTML
+ * SCSS
+ * JS
+ 
+# Here comes a screenshot
+
+
+# Who make this master piece?
+* [WeapWeap](https://github.com/ChardonFrancois)
+HOME PAGE, MENU HAMBURGER
+* [Tariq Selawi](https://github.com/Tselawi)
+SHOP PAGE, CONTACT PAGE, NAVBAR
+* [Hsia](https://github.com/yunhsiaho)
+PRODUCT PAGE, ABOUT PAGE, FOOTER
+
