@@ -6,7 +6,8 @@
 .navbar {
   height: 10%;
   width: 100%;
-  border-bottom: 1px solid #f2ede9; }
+  border-bottom: 1px solid #f2ede9;
+  background-color: white; }
 
 .navbar-brand {
   position: relative;
