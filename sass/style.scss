@@ -1388,7 +1388,7 @@ h2 span {
 
          transition: transform .6s ease-in-out;
          -webkit-transition: transform .6s ease-in-out;
-         transform: translateX(1000%);
+         transform: translateX(100%);
          -webkit-transform: translateX(100%);
          &.isOpen{
             transform: translateX(0%);
@@ -2428,6 +2428,9 @@ h2 span {
                     }
                     
                 }
+                
+
+
                 .col3{
                     
                     width: 100%;
@@ -3967,8 +3970,54 @@ h2 span {
             }
             //fin media queries desktop
          }
-        
+
+         //start media queries min-1025 max-1052
+
+
+        @media screen and (min-width: 1025px) and (max-width: 1052px){
+
+            body{
+                width: 150%;
+            }
+
+
+        }
                
-   
+   //start media min-1053 max-1234
+
+   @media screen and (min-width: 1053px) and (max-width:1234px){
+       body{
+           width: 100%;
+       }
+       header{
+           width: 100%;
+           .img-bg{
+               width: 100%;
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;
+               
+           }
+       }
+       .secThree{
+           width: 100%;
+           .col3{
+               .stock3{
+                   p{
+                       font-size: 1rem;
+                   }
+                h2{
+                    font-size: 2rem;
+                }
+                a{
+                    font-size: 1rem;
+                }
+               }
+           }
+       }
+
+
+       //fin media queries
+   }
         
     
