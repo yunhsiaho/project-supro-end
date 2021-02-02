@@ -1,76 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="src_contact/css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-            integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-        <title>Project-Supro-contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--style.css-->
+    <link rel="stylesheet" href="src_contact/css/style.css">
+    <!--preconnect-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--boostrap-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!--fontawesome - icons-->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <!--menu hamburger-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <title>Project-Supro-contact</title>
 </head>
-<body>
 
-    <section>
-        <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand " href="#">Supro.</a>
-                
-                <div class="collapse navbar-collapse" id="basicExampleNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="product.html">Collection</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">Supro.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
                 <form class="d-flex">
-                    <input class="form-control" placeholder="Search Searching..." aria-label="Search">
+                    <input class="form-control" placeholder="Search..." aria-label="Search">
                     <button type="button" class="btn">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
-                <form class="small-icons ">
+                <form class="small-icons">
                     <button type="button" class="btn">
                         <i class="far fa-user"></i>
                     </button>
-                    <button type="button " class="btn">
+                    <button type="button" class="btn">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button type="button " class="btn">
+                    <button type="button" class="btn">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </form>
+                <div class="boxMenu">
+                    <div class="contLignes btnnn">
+                        <div class="lignes"></div>
+                        <div class="lignes"></div>
+                        <div class="lignes"></div>
+                    </div>
+                </div>
             </div>
-        </nav>
-      
+    </nav>
+    <section>
+        <div class="menuDefi">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="product.html">Collection</a>
+                </li>
+                <li>
+                    <a href="about.html">Pages</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <main>
+        <div class="container1">
+            <div class="ant-01">
+                <div class="container2">
+                    <h2>Contact</h2>
+                    <p><span class="shop-home">Home <i class="fas fa-circle"></i></span> Shop </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-2 col-md-1 col-lg-2"></div>
+                <div class="col-sm-8 col-md-11 col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="mb-3 my-5">
+                                <label for="exampleFormControlInput1" class="form-label">
+                                    <p>Name<sup class="text-danger">*</sup></p>
+                                </label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="mb-3 my-5">
+                                <label for="exampleFormControlInput1" class="form-label">
+                                    <p>Email<sup class="text-danger">*</sup></p>
+                                </label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="mt-1">
+                                <label for="exampleFormControlTextarea1" class="form-label">
+                                    <p class="pt-4">Your Message<sup class="text-danger">*</sup></p>
+                                </label>
+                                <textarea class="form-control my-4" id="exampleFormControlTextarea1"
+                                    rows="5"></textarea>
+                                <button type="button" class="btn btn-dark">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-12 col-lg-4">
+                    <div class=row>
+                        <div class="col-md-1 col-lg-2"></div>
+                        <div class="col-sm-6 col-md-11 col-lg-10 my-4">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-sm-1 col-md-1 col-lg-2"></div>
+                        <div class="col-sm-11 col-md-11 col-lg-10">
+                            <p class="title-office mb-4">Our Office</p>
+                            <p class="address-office">15 St Margarets Lane New York, NY 10033</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1 col-md-1 col-lg-2"></div>
+                        <div class="col-sm-11 col-md-11 col-lg-10">
+                            <p class="touch-title">Get in Touch</p>
+                            <p class="phone">PHONE NUMBER
+                            <p class="num">631-679-6357</p>
+                            </p>
+                            <p class="email">EMAIL
+                            <p class="email-address">supro@example.com</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                <div class="col-sm-10 col-md-10 col-lg-10">
+                    <hr>
+                </div>
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-1 col-lg-2"></div>
+                <div class="col-sm-8 col-md-11 col-lg-8 mt-5">
+                    <div class="row mt-5">
+                        <div class="col-12 col-lg-3">
+                            <p class="store-add">Store in London</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <p class="location">LOCATION
+                            <p class="lolaire">16 Lolaire Road, New Abbey, DG2 2SX</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class=store-num>PHONE NUMBER
+                            <p class="num-1">077 6941 6241</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class="store-email">EMAIL
+                            <p class="email-1">suprolondon@example.com</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12 col-lg-3">
+                            <p class="store-add">Store in Sydney</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <p class="location">LOCATION
+                            <p class="lolaire">16 Lolaire Road, New Abbey, DG2 2SX</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class=store-num>PHONE NUMBER
+                            <p class="num-1">077 6941 6241</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class="store-email">EMAIL
+                            <p class="email-1">suprosydsney@example.com</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12 col-lg-3">
+                            <p class="store-add">Store in Hamburg</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <p class="location">LOCATION
+                            <p class="lolaire">16 Lolaire Road, New Abbey, DG2 2SX</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class=store-num>PHONE NUMBER
+                            <p class="num-1">077 6941 6241</p>
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <p class="store-email">EMAIL
+                            <p class="email-1">humburg@example.com</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row my-4">
+                <img src="/img_contact/map-address.png" alt="map-address">
+            </div>
+        </div>
 
+        <section class="footer">
+            <div class="container-fluid">
+                <div class="row my-5">
+                    <div class="col-lg-2"></div>
+                    <div class="col-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-3 col-lg-2 mx-3">
+                                <p class="footer_title  my-5">HELP & INFORMATION</p>
+                                <p class="footer_items  my-2">Track Order</p>
+                                <p class="footer_items  my-2">Delivery & Returns</p>
+                                <p class="footer_items  my-2">Premier Delivery</p>
+                                <p class="footer_items  my-2">FAQs</p>
+                            </div>
+                            <div class="col-3 col-lg-2 mx-3">
+                                <p class="footer_title  my-5">ABOUT SUPRO</p>
+                                <p class="footer_items  my-2">About us</p>
+                                <p class="footer_items  my-2">Careers</p>
+                                <p class="footer_items  my-2">Coporate</p>
+                                <p class="footer_items  my-2">Investors</p>
+                            </div>
+                            <div class="col-3 col-lg-2  mx-3">
+                                <p class="footer_title  my-5">ONLINE SHOP</p>
+                                <p class="footer_items  my-2">Shoes</p>
+                                <p class="footer_items  my-2">Bags</p>
+                                <p class="footer_items  my-2">Wallets</p>
+                                <p class="footer_items  my-2">Belts</p>
+                            </div>
+                            <div class="col-3 col-lg-2  mx-3">
+                                <p class="footer_title  my-5">LANGUAGE</p>
+                                <p class="footer_items  m-2">English <i class="fas fa-angle-down"></i></p>
+                            </div>
+                            <div class="col-3 col-lg-2  mx-3">
+                                <p class="footer_title  my-5">CURRENCY</p>
+                                <p class="footer_items  m-2">USD <i class="fas fa-angle-down"></i></p>
+                            </div>    
+                        </div>
+                    </div>  
+                    <div class="col-lg-2"></div>    
+                </div>
+            </div>
+            <hr class="grayline"/>
+            <div class="d-block m-5">
+                <span class="footer_items">© 2019</span>
+                <span class="footer_title" >Supro.</span>
+                <span class="footer_items">All rights reserved.</span>
+                <span>
+                    <div class="hover-shadow hover-color credit">
+                        <span>W</span><span>E</span><span>A</span><span>P</span><span>x</span><span>T</span><span>A</span><span>R</span><span>I</span><span>Q</span><span>x</span><span>H</span><span>S</span><span>I</span><span>A</span>
+                    </div>
+                </span>        
+            </div>
+        </section>
     </main>
+    <!-- menu hamburger-->
+    <script src="app.js"></script>
+        
 </body>
+
 </html>
