@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch src_contact/scss --output src_contact/css --source-map true"
+    "scss": "node-sass --watch src_shop/scss --output src_shop/css --source-map true"
   },
   "repository": {
     "type": "git",
