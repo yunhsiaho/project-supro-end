@@ -22,7 +22,7 @@ It composes by differents pages :
 Our mission is to build the front-end integration. John Lafrite provided the design but for the hover effects or fancy animations, we have to use our creativity of front-end developer.
 
 # Check our project(link)
-
+https://tselawi.github.io/project-supro-end/
 
 # The languages used
  * HTML
