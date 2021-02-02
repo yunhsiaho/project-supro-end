@@ -1306,15 +1306,15 @@ h2 span {
 
     // start footer
 
-    .footer_title{
-        font-weight: 600;
-        }
-        .footer_items{
-        color:$color-secondary;
-        }
-        .grayline{
-        color:$color-secondary;
-        }
+    // .footer_title{
+    //     font-weight: 600;
+    //     }
+    //     .footer_items{
+    //     color:$color-secondary;
+    //     }
+    //     .grayline{
+    //     color:$color-secondary;
+    //     }
 
 
         //------------------------------------------------------------------------------------------------
@@ -4033,14 +4033,14 @@ h2 span {
     font-weight: 600;
 }
 .footer_items{
-    color:$greyColor;
+    color:$color-secondary;
     
 }
 .grayline{
-    color:$greyColor;
+    color:$color-secondary;
 }
 .credit{
-    color:$greyColor;
+    color:$color-secondary;
     text-decoration: none;
     span{
         font-weight: 500;
@@ -4094,10 +4094,11 @@ h2 span {
         span{
         font-weight: 700;
         font-size: 23px;
-        color:$blackColor;
+        color:$color-black;
     }
     }
  }
+
     
    //start media queries pour la nav 
 
