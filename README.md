@@ -15,7 +15,7 @@ It composes by differents pages :
   * Homepage
   * Shop page
   * Single product page
-  * About pae
+  * About page
   * Contact page
 
 Our mission is to build the front-end integration. John Lafrite provided the design but for the hover effects or fancy animations, we have to use our creativity of front-end developer.
@@ -27,6 +27,7 @@ Our mission is to build the front-end integration. John Lafrite provided the des
  * HTML
  * SCSS
  * JS
+ * BOOTSTRAP
  
 # Here comes a screenshot
 
