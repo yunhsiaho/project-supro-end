@@ -1386,6 +1386,7 @@ h2 span {
          background-color: $color-black;
          width: 20%;
          height: 100%;
+         z-index: 50;
 
          transition: transform .6s ease-in-out;
          -webkit-transition: transform .6s ease-in-out;
