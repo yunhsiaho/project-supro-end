@@ -183,7 +183,7 @@ hr {
 }
 
 .col1 {
-  background-image: url(/photos-homeDesktop/banner_h1_1.jpg);
+  background-image: url(../../photos-homeDesktop/banner_h1_1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: lightgray;
@@ -191,13 +191,13 @@ hr {
 }
 
 .col2 {
-  background-image: url(/photos-homeDesktop/banner_h1_2.jpg);
+  background-image: url(../../photos-homeDesktop/banner_h1_2.jpg);
   background-position: center;
   height: 37rem;
 }
 
 .col3 {
-  background-image: url(/photos-homeDesktop/banner_h1_3.jpg);
+  background-image: url(../../photos-homeDesktop/banner_h1_3.jpg);
   background-repeat: no-repeat;
   background-color: lightgray;
   height: 37rem;
@@ -236,7 +236,7 @@ h2 span {
 }
 
 .wor .col1:hover {
-  background-image: url(/photos-homeDesktop/banner_h1_2.jpg);
+  background-image: url(../../photos-homeDesktop/banner_h1_2.jpg);
   background-position: center;
   color: white;
 }
@@ -287,7 +287,7 @@ h2 span {
 }
 
 .wor .col2:hover {
-  background-image: url(/photos-homeDesktop/banner_h1_1.jpg);
+  background-image: url(../../photos-homeDesktop/banner_h1_1.jpg);
   background-position: center;
 }
 .wor .col2:hover p {
@@ -368,7 +368,7 @@ h2 span {
   margin-left: 30rem;
   height: 20rem;
   width: 20rem;
-  background-image: url(/photos-homeDesktop/bsl1.jpg);
+  background-image: url(../../photos-homeDesktop/bsl1.jpg);
   background-position: center;
   background-size: contain;
   position: relative;
@@ -411,7 +411,7 @@ h2 span {
   display: inline-block;
   height: 35rem;
   width: 35rem;
-  background-image: url(/photos-homeDesktop/bsl2.jpg);
+  background-image: url(../../photos-homeDesktop/bsl2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -452,7 +452,7 @@ h2 span {
   height: auto;
 }
 .contain2sec .img1sec2 {
-  background-image: url(/photos-homeDesktop/bsl3.jpg);
+  background-image: url(../../photos-homeDesktop/bsl3.jpg);
   width: 38rem;
   height: 38rem;
   display: inline-block;
@@ -491,7 +491,7 @@ h2 span {
   width: 20rem;
   height: 20rem;
   display: inline-block;
-  background-image: url(/photos-homeDesktop/bsl4.jpg);
+  background-image: url(../../photos-homeDesktop/bsl4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -557,7 +557,7 @@ h2 span {
   justify-content: space-around;
 }
 .firstcontain3img .firstimg {
-  background-image: url(/photos-homeDesktop/prd_05_1_2.jpg);
+  background-image: url(../../photos-homeDesktop/prd_05_1_2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -586,7 +586,7 @@ h2 span {
   color: #f68773;
 }
 .firstcontain3img .secondimg {
-  background-image: url(/photos-homeDesktop/sec4img2.png);
+  background-image: url(../../photos-homeDesktop/sec4img2.png);
   background-position: center;
   background-size: cover;
   width: 20rem;
@@ -618,7 +618,7 @@ h2 span {
 }
 
 .thirdimg {
-  background-image: url(/photos-homeDesktop/sec4img3.png);
+  background-image: url(../../photos-homeDesktop/sec4img3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -657,7 +657,7 @@ h2 span {
   justify-content: space-around;
 }
 .secondecontain3img .firstimg {
-  background-image: url(/photos-homeDesktop/sec5img1.png);
+  background-image: url(../../photos-homeDesktop/sec5img1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -687,7 +687,7 @@ h2 span {
   color: #f68773;
 }
 .secondecontain3img .secondimg {
-  background-image: url(/photos-homeDesktop/sec5img2.png);
+  background-image: url(../../photos-homeDesktop/sec5img2.png);
   background-position: center;
   background-size: cover;
   width: 20rem;
@@ -719,7 +719,7 @@ h2 span {
   font-size: 1.5rem;
 }
 .secondecontain3img .thirdimgsec2 {
-  background-image: url(/photos-homeDesktop/sec5img3.png);
+  background-image: url(../../photos-homeDesktop/sec5img3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -783,7 +783,7 @@ h2 span {
 .containEvent .imgEvent {
   width: 100%;
   height: 100%;
-  background-image: url(/photos-homeDesktop/deals_image.jpg);
+  background-image: url(../../photos-homeDesktop/deals_image.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -915,7 +915,7 @@ h2 span {
 .contain3img .firstImg {
   width: 40rem;
   height: 25rem;
-  background-image: url(/photos-homeDesktop/blog1.jpg);
+  background-image: url(../../photos-homeDesktop/blog1.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -944,7 +944,7 @@ h2 span {
 .contain3img .twoImg {
   width: 40rem;
   height: 25rem;
-  background-image: url(/photos-homeDesktop/blog2.jpg);
+  background-image: url(../../photos-homeDesktop/blog2.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -973,7 +973,7 @@ h2 span {
 .contain3img .thirdImg {
   width: 40rem;
   height: 25rem;
-  background-image: url(/photos-homeDesktop/blog3.jpg);
+  background-image: url(../../photos-homeDesktop/blog3.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1052,7 +1052,7 @@ h2 span {
   background-color: rebeccapurple;
 }
 .containImg .img1 {
-  background-image: url(/photos-homeDesktop/blog6_1.jpg);
+  background-image: url(../../photos-homeDesktop/blog6_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1063,7 +1063,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img2 {
-  background-image: url(/photos-homeDesktop/blog4_1.jpg);
+  background-image: url(../../photos-homeDesktop/blog4_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1074,7 +1074,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img3 {
-  background-image: url(/photos-homeDesktop/bsl4.jpg);
+  background-image: url(../../photos-homeDesktop/bsl4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1085,7 +1085,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img4 {
-  background-image: url(/photos-homeDesktop/blog5_1.jpg);
+  background-image: url(../../photos-homeDesktop/blog5_1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1096,7 +1096,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img5 {
-  background-image: url(/photos-homeDesktop/prd_06_1_2.jpg);
+  background-image: url(../../photos-homeDesktop/prd_06_1_2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1107,7 +1107,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img6 {
-  background-image: url(/photos-homeDesktop/latest2_1.jpg);
+  background-image: url(../../photos-homeDesktop/latest2_1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1118,7 +1118,7 @@ h2 span {
   opacity: 1;
 }
 .containImg .img7 {
-  background-image: url(/photos-homeDesktop/sec5img3.png);
+  background-image: url(../../photos-homeDesktop/sec5img3.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1215,7 +1215,7 @@ h2 span {
   header .img-bg {
     width: 225%;
     height: 100%;
-    background-image: url(/photos-homeDesktop/sl3-1.jpg);
+    background-image: url(../../photos-homeDesktop/sl3-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
